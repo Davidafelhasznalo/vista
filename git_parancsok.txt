@@ -1,0 +1,2 @@
+git switch -c [branch_nev] <-- lokális branch létrehozása
+git push -u origin [branch_nev] <-- lokális branch push-olása
