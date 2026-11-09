@@ -1,5 +1,5 @@
-php artisan make:seeder JarmuSeeder
-php artisan migrate
-cp .env.example .env
-composer install
-php artisan serve
+composer install                        <-- vendor mappa telepítése
+php artisan serve                       <-- server elindítása
+cp .env.example .env                    <-- .env fájl létrehozása
+php artisan migrate                     <-- migrációk futattása
+php artisan make:seeder JarmuSeeder     <-- seeder létrehozása
