@@ -11,6 +11,9 @@ return new class extends Migration {
             $table->unsignedInteger('parkolo_id');
             $table->unsignedInteger('hely_kat_id');
             $table->text('megnevezes');
+                        
+            $table->foreign('parkolo_id')->references('parkolo_id')->on('parkolo')->onDelete('cascade');
+            $table->foreign('hely_kat_id')->references('hely_kat_id')->on('helykat')->onDelete('cascade');
         });
     }
 

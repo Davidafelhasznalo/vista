@@ -17,6 +17,9 @@ return new class extends Migration {
             $table->integer('bevetel');
             $table->text('leiras');
             $table->boolean('hibamentes_e');
+                        
+            $table->foreign('jarmu_id')->references('jarmu_id')->on('jarmu')->onDelete('cascade');
+            $table->foreign('dolgozo_id')->references('dolgozo_id')->on('dolgozo')->onDelete('cascade');
         });
     }
 
