@@ -24,6 +24,9 @@ return new class extends Migration {
             $table->char('alvazszam');
             $table->integer('hengerurtartalom');
             $table->integer('max_teljesitmeny');
+
+            $table->foreign('jarmu_kat_id')->references('jarmu_kat_id')->on('jarmukat')->onDelete('cascade');
+            $table->foreign('park_hely_id')->references('park_hely_id')->on('parkhely')->onDelete('cascade');
         });
     }
 

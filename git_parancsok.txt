@@ -1,2 +1,8 @@
-git switch -c [branch_nev] <-- lokális branch létrehozása
-git push -u origin [branch_nev] <-- lokális branch push-olása
+git fetch                                       <-- más userek által történt változtatások megjelenítése
+git pull                                        <-- más userek által történt változtatások letöltése
+git add *                                       <-- az összes lokális változtatás csomagolása a feltöltéshez
+git commit -m "[valtoztatasok_rovid_leirasa]"   <-- a felküldendő csomag "címkézése" (címadás/rövid leírás) a könnyebb kezeléshez és a verziók egyszerűbb nyomonkövetéséhez 
+git push                                        <-- változtatások felküldése a felhőbe
+
+git switch -c [branch_nev]                      <-- lokális branch létrehozása
+git push -u origin [branch_nev]                 <-- lokális branch push-olása
