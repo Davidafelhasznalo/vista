@@ -9,7 +9,7 @@ return new class extends Migration {
         Schema::create('dolgozo', function (Blueprint $table) {
             $table->increments('dolgozo_id');
             $table->unsignedInteger('jog_id');
-            $table->unsignedInteger('vez_eng_id');
+            $table->unsignedInteger('vez_eng_id')->nullable();
             $table->text('jelszo');
             $table->text('jelszo_so');
             $table->string('telszam', 255);
@@ -17,8 +17,8 @@ return new class extends Migration {
             $table->text('ker_nev');
             $table->text('vez_nev');
 
-            $table->foreign('jog_id')->references('jog_id')->on('jog')->onDelete('cascade');
-            $table->foreign('vez_eng_id')->references('vez_eng_id')->on('jogositvany')->onDelete('cascade');
+            $table->foreign('jog_id')->references('jog_id')->on('jog')->onDelete('restrict');
+            $table->foreign('vez_eng_id')->references('vez_eng_id')->on('jogositvany')->nullOnDelete();
         });
     }
 

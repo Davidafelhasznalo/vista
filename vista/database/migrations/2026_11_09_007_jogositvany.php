@@ -11,7 +11,7 @@ return new class extends Migration {
             $table->unsignedInteger('kat_id');
             $table->date('lejar_datum');
             
-            $table->foreign('kat_id')->references('kat_id')->on('jogkat')->onDelete('cascade');
+            $table->foreign('kat_id')->references('kat_id')->on('jogkat')->onDelete('restrict');
         });
     }
 

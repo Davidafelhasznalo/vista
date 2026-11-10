@@ -9,7 +9,7 @@ return new class extends Migration {
         Schema::create('fuvar', function (Blueprint $table) {
             $table->increments('fuvar_id');
             $table->unsignedInteger('jarmu_id');
-            $table->unsignedInteger('dolgozo_id');
+            $table->unsignedInteger('dolgozo_id')->nullable();
             $table->date('indulas_datum');
             $table->date('erkezes_datum');
             $table->double('ora_indulaskor');
@@ -18,8 +18,8 @@ return new class extends Migration {
             $table->text('leiras');
             $table->boolean('hibamentes_e');
                         
-            $table->foreign('jarmu_id')->references('jarmu_id')->on('jarmu')->onDelete('cascade');
-            $table->foreign('dolgozo_id')->references('dolgozo_id')->on('dolgozo')->onDelete('cascade');
+            $table->foreign('jarmu_id')->references('jarmu_id')->on('jarmu')->onDelete('restrict');
+            $table->foreign('dolgozo_id')->references('dolgozo_id')->on('dolgozo')->nullOnDelete();
         });
     }
 
