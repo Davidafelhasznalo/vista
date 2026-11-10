@@ -1,0 +1,17 @@
+[
+	{
+		"parkolo_id": 1,
+		"park_nev": "Garázs",
+		"park_hely_szam": 8
+	},
+	{
+		"parkolo_id": 2,
+		"park_nev": "Céges Parkoló",
+		"park_hely_szam": 10
+	},
+	{
+		"parkolo_id": 3,
+		"park_nev": "Személyzeti Parkoló",
+		"park_hely_szam": 12
+	}
+]

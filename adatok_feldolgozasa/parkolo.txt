@@ -1,0 +1,5 @@
+parkolo_id;park_nev;park_hely_szam
+i;s;i
+1;Garázs;8
+2;Céges Parkoló;10
+3;Személyzeti Parkoló;12

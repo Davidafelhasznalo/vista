@@ -1,0 +1,77 @@
+[
+	{
+		"jarmu_kat_id": 1,
+		"megnevezes": "AM",
+		"elvart_kat": 1
+	},
+	{
+		"jarmu_kat_id": 2,
+		"megnevezes": "A1",
+		"elvart_kat": 2
+	},
+	{
+		"jarmu_kat_id": 3,
+		"megnevezes": "A2",
+		"elvart_kat": 3
+	},
+	{
+		"jarmu_kat_id": 4,
+		"megnevezes": "A",
+		"elvart_kat": 4
+	},
+	{
+		"jarmu_kat_id": 5,
+		"megnevezes": "B1",
+		"elvart_kat": 5
+	},
+	{
+		"jarmu_kat_id": 6,
+		"megnevezes": "B",
+		"elvart_kat": 6
+	},
+	{
+		"jarmu_kat_id": 7,
+		"megnevezes": "BE",
+		"elvart_kat": 7
+	},
+	{
+		"jarmu_kat_id": 8,
+		"megnevezes": "C1",
+		"elvart_kat": 8
+	},
+	{
+		"jarmu_kat_id": 9,
+		"megnevezes": "C",
+		"elvart_kat": 9
+	},
+	{
+		"jarmu_kat_id": 10,
+		"megnevezes": "C1E",
+		"elvart_kat": 10
+	},
+	{
+		"jarmu_kat_id": 11,
+		"megnevezes": "CE",
+		"elvart_kat": 11
+	},
+	{
+		"jarmu_kat_id": 12,
+		"megnevezes": "D1",
+		"elvart_kat": 12
+	},
+	{
+		"jarmu_kat_id": 13,
+		"megnevezes": "D",
+		"elvart_kat": 13
+	},
+	{
+		"jarmu_kat_id": 14,
+		"megnevezes": "D1E",
+		"elvart_kat": 14
+	},
+	{
+		"jarmu_kat_id": 15,
+		"megnevezes": "DE",
+		"elvart_kat": 15
+	}
+]

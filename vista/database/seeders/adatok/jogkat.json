@@ -1,0 +1,77 @@
+[
+	{
+		"kat_id": 1,
+		"kategoria": "AM",
+		"megnevezes": "Segédmotoros kerékpár"
+	},
+	{
+		"kat_id": 2,
+		"kategoria": "A1",
+		"megnevezes": "Könnyű motorkerékpár"
+	},
+	{
+		"kat_id": 3,
+		"kategoria": "A2",
+		"megnevezes": "Középkategóriás motorkerékpár"
+	},
+	{
+		"kat_id": 4,
+		"kategoria": "A",
+		"megnevezes": "Korlátlan motorkerékpár"
+	},
+	{
+		"kat_id": 5,
+		"kategoria": "B1",
+		"megnevezes": "Négykerekű motorkerékpár"
+	},
+	{
+		"kat_id": 6,
+		"kategoria": "B",
+		"megnevezes": "Személygépkocsi"
+	},
+	{
+		"kat_id": 7,
+		"kategoria": "BE",
+		"megnevezes": "Személygépkocsi nehéz pótkocsival"
+	},
+	{
+		"kat_id": 8,
+		"kategoria": "C1",
+		"megnevezes": "Kis tehergépkocsi"
+	},
+	{
+		"kat_id": 9,
+		"kategoria": "C",
+		"megnevezes": "Tehergépkocsi"
+	},
+	{
+		"kat_id": 10,
+		"kategoria": "C1E",
+		"megnevezes": "Kis tehergépkocsi nehéz pótkocsival"
+	},
+	{
+		"kat_id": 11,
+		"kategoria": "CE",
+		"megnevezes": "Nehéz tehergépkocsi pótkocsival"
+	},
+	{
+		"kat_id": 12,
+		"kategoria": "D1",
+		"megnevezes": "Kisbusz"
+	},
+	{
+		"kat_id": 13,
+		"kategoria": "D",
+		"megnevezes": "Autóbusz"
+	},
+	{
+		"kat_id": 14,
+		"kategoria": "D1E",
+		"megnevezes": "Kisbusz pótkocsival"
+	},
+	{
+		"kat_id": 15,
+		"kategoria": "DE",
+		"megnevezes": "Autóbusz pótkocsival"
+	}
+]

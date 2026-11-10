@@ -1,0 +1,17 @@
+kat_id;kategoria;megnevezes
+i;s;s
+1;AM;Segédmotoros kerékpár
+2;A1;Könnyű motorkerékpár
+3;A2;Középkategóriás motorkerékpár
+4;A;Korlátlan motorkerékpár
+5;B1;Négykerekű motorkerékpár
+6;B;Személygépkocsi
+7;BE;Személygépkocsi nehéz pótkocsival
+8;C1;Kis tehergépkocsi
+9;C;Tehergépkocsi
+10;C1E;Kis tehergépkocsi nehéz pótkocsival
+11;CE;Nehéz tehergépkocsi pótkocsival
+12;D1;Kisbusz
+13;D;Autóbusz
+14;D1E;Kisbusz pótkocsival
+15;DE;Autóbusz pótkocsival
