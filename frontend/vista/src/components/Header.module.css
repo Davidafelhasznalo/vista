@@ -1,33 +1,35 @@
-.header {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-    padding: 12px 20px;
-    border-bottom: 2px solid;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
 .logo {
-    width: 48px;
-    height: 48px;
-    display: grid;
-    place-items: center;
-    font-size: 10px;
+    width: 36px;
+    height: 36px;
+    background: var(--akcent);
+    color: var(--logo-betu);
 }
 
-.title {
-    margin: 0;
-    font-size: 1.2rem;
-}
-
-.btn {
-    justify-self: end;
-    padding: 6px 14px;
-    border: 2px solid;
-    border-radius: 8px;
-    font-size: 1rem;
+.tema {
+    width: 36px;
+    height: 36px;
+    background: transparent;
     cursor: pointer;
+}
+
+.tema img {
+    width: 18px;
+    height: 18px;
+    filter: var(--ikon-szuro);
+}
+
+.gomb {
+    --bs-btn-color: var(--akcent-szoveg);
+    --bs-btn-bg: var(--akcent);
+    --bs-btn-border-color: var(--akcent);
+    --bs-btn-hover-color: var(--akcent-szoveg);
+    --bs-btn-hover-bg: var(--akcent);
+    --bs-btn-hover-border-color: var(--akcent);
+    --bs-btn-active-color: var(--akcent-szoveg);
+    --bs-btn-active-bg: var(--akcent);
+    --bs-btn-active-border-color: var(--akcent);
+}
+
+.gomb:hover {
+    opacity: 0.85;
 }

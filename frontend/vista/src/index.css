@@ -1,0 +1,52 @@
+:root,
+[data-bs-theme="light"] {
+  --bs-body-font-family: 'Work Sans', sans-serif;
+
+  --bs-body-bg: #f8f9f1;
+  --bs-body-bg-rgb: 248, 249, 241;
+  --bs-body-color: #1a3d2f;
+  --bs-body-color-rgb: 26, 61, 47;
+  --bs-secondary-color: #5b6b62;
+  --bs-secondary-bg: #ffffff;
+  --bs-secondary-bg-rgb: 255, 255, 255;
+  --bs-tertiary-bg: #eef0e0;
+  --bs-tertiary-bg-rgb: 238, 240, 224;
+  --bs-border-color: #dfe3d3;
+  --bs-dark-rgb: 26, 61, 47;
+
+  --akcent: #1a3d2f;
+  --akcent-szoveg: #ffffff;
+  --logo-betu: #d4f26b;
+  --ikon-szuro: none;
+}
+
+[data-bs-theme="dark"] {
+  --bs-body-bg: #0f1914;
+  --bs-body-bg-rgb: 15, 25, 20;
+  --bs-body-color: #eef3e4;
+  --bs-body-color-rgb: 238, 243, 228;
+  --bs-secondary-color: #9fb3a8;
+  --bs-secondary-bg: #16231c;
+  --bs-secondary-bg-rgb: 22, 35, 28;
+  --bs-tertiary-bg: #17251e;
+  --bs-tertiary-bg-rgb: 23, 37, 30;
+  --bs-border-color: #2a3d33;
+
+  --akcent: #d4f26b;
+  --akcent-szoveg: #1a3d2f;
+  --logo-betu: #1a3d2f;
+  --ikon-szuro: invert(1);
+}
+
+
+.label {
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--bs-secondary-color);
+  margin-bottom: 12px;
+}
+
+.text-lime {
+  color: #d4f26b !important;
+}
