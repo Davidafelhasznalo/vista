@@ -15,7 +15,7 @@ return new class extends Migration {
             $table->text('javitott');
             $table->integer('javitas_ar');
 
-            $table->foreign('jarmu_id')->references('jarmu_id')->on('jarmu')->onDelete('cascade');
+            $table->foreign('jarmu_id')->references('jarmu_id')->on('jarmu')->onDelete('restrict');
         });
     }
 

@@ -13,7 +13,7 @@ return new class extends Migration {
             $table->text('megnevezes');
                         
             $table->foreign('parkolo_id')->references('parkolo_id')->on('parkolo')->onDelete('cascade');
-            $table->foreign('hely_kat_id')->references('hely_kat_id')->on('helykat')->onDelete('cascade');
+            $table->foreign('hely_kat_id')->references('hely_kat_id')->on('helykat')->onDelete('restrict');
         });
     }
 

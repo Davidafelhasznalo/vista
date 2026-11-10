@@ -16,8 +16,8 @@ return new class extends Migration {
             $table->date('tankolas_datum');
             $table->double('km_ora_allas');
             
-            $table->foreign('jarmu_id')->references('jarmu_id')->on('jarmu')->onDelete('cascade');
-            $table->foreign('dolgozo_id')->references('dolgozo_id')->on('dolgozo')->onDelete('cascade');
+            $table->foreign('jarmu_id')->references('jarmu_id')->on('jarmu')->onDelete('restrict');
+            $table->foreign('dolgozo_id')->references('dolgozo_id')->on('dolgozo')->nullOnDelete();
         });
     }
 

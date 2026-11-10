@@ -9,7 +9,7 @@ return new class extends Migration {
         Schema::create('jarmu', function (Blueprint $table) {
             $table->increments('jarmu_id');
             $table->unsignedInteger('jarmu_kat_id');
-            $table->unsignedInteger('park_hely_id');
+            $table->unsignedInteger('park_hely_id')->nullable();
             $table->double('futott_km');
             $table->text('marka');
             $table->text('tipus');
@@ -25,8 +25,8 @@ return new class extends Migration {
             $table->integer('hengerurtartalom');
             $table->integer('max_teljesitmeny');
 
-            $table->foreign('jarmu_kat_id')->references('jarmu_kat_id')->on('jarmukat')->onDelete('cascade');
-            $table->foreign('park_hely_id')->references('park_hely_id')->on('parkhely')->onDelete('cascade');
+            $table->foreign('jarmu_kat_id')->references('jarmu_kat_id')->on('jarmukat')->onDelete('restrict');
+            $table->foreign('park_hely_id')->references('park_hely_id')->on('parkhely')->nullOnDelete();
         });
     }
 

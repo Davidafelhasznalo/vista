@@ -17,8 +17,8 @@ return new class extends Migration {
             $table->text('ker_nev');
             $table->text('vez_nev');
 
-            $table->foreign('jog_id')->references('jog_id')->on('jog')->onDelete('cascade');
-            $table->foreign('vez_eng_id')->references('vez_eng_id')->on('jogositvany')->onDelete('cascade');
+            $table->foreign('jog_id')->references('jog_id')->on('jog')->onDelete('restrict');
+            $table->foreign('vez_eng_id')->references('vez_eng_id')->on('jogositvany')->nullOnDelete();
         });
     }
 

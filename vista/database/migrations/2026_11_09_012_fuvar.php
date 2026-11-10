@@ -18,8 +18,8 @@ return new class extends Migration {
             $table->text('leiras');
             $table->boolean('hibamentes_e');
                         
-            $table->foreign('jarmu_id')->references('jarmu_id')->on('jarmu')->onDelete('cascade');
-            $table->foreign('dolgozo_id')->references('dolgozo_id')->on('dolgozo')->onDelete('cascade');
+            $table->foreign('jarmu_id')->references('jarmu_id')->on('jarmu')->onDelete('restrict');
+            $table->foreign('dolgozo_id')->references('dolgozo_id')->on('dolgozo')->nullOnDelete();
         });
     }
 
