@@ -15,7 +15,7 @@ return new class extends Migration {
         });
     }
 
-    // public function down(): void {
-    //     Schema::dropIfExists('jogositvany');
-    // }
+    public function down(): void {
+        Schema::dropIfExists('jogositvany');
+    }
 };

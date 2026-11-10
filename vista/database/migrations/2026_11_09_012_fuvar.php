@@ -23,7 +23,7 @@ return new class extends Migration {
         });
     }
 
-    // public function down(): void {
-    //     Schema::dropIfExists('fuvar');
-    // }
+    public function down(): void {
+        Schema::dropIfExists('fuvar');
+    }
 };

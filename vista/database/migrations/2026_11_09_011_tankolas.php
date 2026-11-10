@@ -21,7 +21,7 @@ return new class extends Migration {
         });
     }
 
-    // public function down(): void {
-    //     Schema::dropIfExists('tankolas');
-    // }
+    public function down(): void {
+        Schema::dropIfExists('tankolas');
+    }
 };
