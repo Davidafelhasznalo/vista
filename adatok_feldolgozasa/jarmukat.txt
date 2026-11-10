@@ -1,0 +1,17 @@
+jarmu_kat_id;megnevezes;elvart_kat
+i;s;i
+1;AM;1
+2;A1;2
+3;A2;3
+4;A;4
+5;B1;5
+6;B;6
+7;BE;7
+8;C1;8
+9;C;9
+10;C1E;10
+11;CE;11
+12;D1;12
+13;D;13
+14;D1E;14
+15;DE;15

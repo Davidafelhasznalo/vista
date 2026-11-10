@@ -1,0 +1,5 @@
+jog_id;jogkor_megnevezes
+i;s
+1;sofőr
+2;irodai dolgozó
+3;admin

@@ -1,0 +1,14 @@
+[
+	{
+		"jog_id": 1,
+		"jogkor_megnevezes": "sofőr"
+	},
+	{
+		"jog_id": 2,
+		"jogkor_megnevezes": "irodai dolgozó"
+	},
+	{
+		"jog_id": 3,
+		"jogkor_megnevezes": "admin"
+	}
+]

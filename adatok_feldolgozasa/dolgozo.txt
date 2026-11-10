@@ -1,0 +1,10 @@
+dolgozo_id;jelszo;jelszo_so;telszam;email;jog_id;vez_eng_id;vez_nev;ker_nev
+i;s;s;s;s;i;i;s;s
+1;bd1865cacba3b990f70e78ee9ddd621de7317ebfb8384169f01af086719d8254;K20r7_;303350590;sutka.barna@gmail.com;1;1;Sutka;Barna
+2;0bb3b61e892e1b341295d6e20631a68ade286394fa7db45d9822cc87c844ced9;.7e3T1;703173535;konya.armin@gmail.com;1;2;Kónya;Ármin
+3;6c98a7122e09ec2dd28a85d12c313b06b36cbef4192c6e86673b7e5762656ab0;g32_7U;209622250;csaki.simon@gmail.com;2;3;Csáki;Simon
+4;0f7735192e01210f9395054e1b917816f7a48eabfdefbede7a6c342065fb3a9d;S:958a;309975861;ocsko.felix@gmail.com;3;4;Ocskó;Félix
+5;1dd1c342c8fd2d8ca6363e3fcc1d87640ee74dd3050e582b4deaa788027dc529;5Q5r*3;708866533;rejto.fulop@gmail.com;2;5;Rejtő;Fülöp
+6;0a5b62ca9a403582638a1f4049926220863ca76483c35e4fc6ddcb582d3763cc;562:Je;302766563;hegyi.antal@gmail.com;1;6;Hegyi;Antal
+7;934c96b7f40ffffa650c10f9f99b3ae0c144fc45dbd9a8819facb72f62728733;Yt104:;303851115;gemes.denes@gmail.com;1;7;Gémes;Dénes
+8;a4ac0e936a567353b01092f6c2bb17f34bc7b6e5284dfd1c9b1f15c1f5863d6d;H90c5&;707799973;toldi.vince@gmail.com;1;8;Toldi;Vince
