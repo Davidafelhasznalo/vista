@@ -9,7 +9,7 @@ return new class extends Migration {
         Schema::create('fuvar', function (Blueprint $table) {
             $table->increments('fuvar_id');
             $table->unsignedInteger('jarmu_id');
-            $table->unsignedInteger('dolgozo_id');
+            $table->unsignedInteger('dolgozo_id')->nullable();
             $table->date('indulas_datum');
             $table->date('erkezes_datum');
             $table->double('ora_indulaskor');

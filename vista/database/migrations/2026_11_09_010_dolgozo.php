@@ -9,7 +9,7 @@ return new class extends Migration {
         Schema::create('dolgozo', function (Blueprint $table) {
             $table->increments('dolgozo_id');
             $table->unsignedInteger('jog_id');
-            $table->unsignedInteger('vez_eng_id');
+            $table->unsignedInteger('vez_eng_id')->nullable();
             $table->text('jelszo');
             $table->text('jelszo_so');
             $table->string('telszam', 255);
