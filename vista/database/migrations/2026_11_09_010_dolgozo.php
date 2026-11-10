@@ -22,7 +22,7 @@ return new class extends Migration {
         });
     }
 
-    // public function down(): void {
-    //     Schema::dropIfExists('dolgozo');
-    // }
+    public function down(): void {
+        Schema::dropIfExists('dolgozo');
+    }
 };
