@@ -1,0 +1,92 @@
+[
+	{
+		"park_hely_id": 1,
+		"parkolo_id": 1,
+		"hely_kat_id": 1,
+		"megnevezes": "1A"
+	},
+	{
+		"park_hely_id": 2,
+		"parkolo_id": 1,
+		"hely_kat_id": 2,
+		"megnevezes": "1B"
+	},
+	{
+		"park_hely_id": 3,
+		"parkolo_id": 1,
+		"hely_kat_id": 3,
+		"megnevezes": "1C"
+	},
+	{
+		"park_hely_id": 4,
+		"parkolo_id": 1,
+		"hely_kat_id": 4,
+		"megnevezes": "1D"
+	},
+	{
+		"park_hely_id": 5,
+		"parkolo_id": 1,
+		"hely_kat_id": 5,
+		"megnevezes": "1E"
+	},
+	{
+		"park_hely_id": 6,
+		"parkolo_id": 2,
+		"hely_kat_id": 1,
+		"megnevezes": "2A"
+	},
+	{
+		"park_hely_id": 7,
+		"parkolo_id": 2,
+		"hely_kat_id": 2,
+		"megnevezes": "2B"
+	},
+	{
+		"park_hely_id": 8,
+		"parkolo_id": 2,
+		"hely_kat_id": 3,
+		"megnevezes": "2C"
+	},
+	{
+		"park_hely_id": 9,
+		"parkolo_id": 2,
+		"hely_kat_id": 4,
+		"megnevezes": "2D"
+	},
+	{
+		"park_hely_id": 10,
+		"parkolo_id": 2,
+		"hely_kat_id": 5,
+		"megnevezes": "2E"
+	},
+	{
+		"park_hely_id": 11,
+		"parkolo_id": 3,
+		"hely_kat_id": 1,
+		"megnevezes": "3A"
+	},
+	{
+		"park_hely_id": 12,
+		"parkolo_id": 3,
+		"hely_kat_id": 2,
+		"megnevezes": "3B"
+	},
+	{
+		"park_hely_id": 13,
+		"parkolo_id": 3,
+		"hely_kat_id": 3,
+		"megnevezes": "3C"
+	},
+	{
+		"park_hely_id": 14,
+		"parkolo_id": 3,
+		"hely_kat_id": 4,
+		"megnevezes": "3D"
+	},
+	{
+		"park_hely_id": 15,
+		"parkolo_id": 3,
+		"hely_kat_id": 5,
+		"megnevezes": "3E"
+	}
+]

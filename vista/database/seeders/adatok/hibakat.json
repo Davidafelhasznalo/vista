@@ -1,0 +1,14 @@
+[
+	{
+		"sulyossag_kat_id": 1,
+		"kat_megnevezes": "Kicsi"
+	},
+	{
+		"sulyossag_kat_id": 2,
+		"kat_megnevezes": "Közepes"
+	},
+	{
+		"sulyossag_kat_id": 3,
+		"kat_megnevezes": "Kritikus"
+	}
+]
