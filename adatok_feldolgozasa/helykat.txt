@@ -1,0 +1,7 @@
+hely_kat_id;kat_megnevezes
+i;s
+1;A
+2;B
+3;C
+4;CE
+5;D
