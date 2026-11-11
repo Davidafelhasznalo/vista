@@ -1,0 +1,5 @@
+sulyossag_kat_id;kat_megnevezes
+i;s
+1;Kicsi
+2;Közepes
+3;Kritikus
