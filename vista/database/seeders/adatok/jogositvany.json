@@ -1,0 +1,42 @@
+[
+	{
+		"vez_eng_id": 1,
+		"kat_id": 6,
+		"lejar_datum": "2026-12-31"
+	},
+	{
+		"vez_eng_id": 2,
+		"kat_id": 9,
+		"lejar_datum": "2027-03-12"
+	},
+	{
+		"vez_eng_id": 3,
+		"kat_id": 11,
+		"lejar_datum": "2026-11-15"
+	},
+	{
+		"vez_eng_id": 4,
+		"kat_id": 9,
+		"lejar_datum": "2028-10-19"
+	},
+	{
+		"vez_eng_id": 5,
+		"kat_id": 11,
+		"lejar_datum": "2027-05-27"
+	},
+	{
+		"vez_eng_id": 6,
+		"kat_id": 6,
+		"lejar_datum": "2027-07-07"
+	},
+	{
+		"vez_eng_id": 7,
+		"kat_id": 11,
+		"lejar_datum": "2028-01-22"
+	},
+	{
+		"vez_eng_id": 8,
+		"kat_id": 11,
+		"lejar_datum": "2029-04-04"
+	}
+]
