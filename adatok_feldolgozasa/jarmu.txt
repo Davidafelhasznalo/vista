@@ -1,8 +1,9 @@
 jarmu_id;jarmu_kat_id;park_hely_id;futott_km;marka;tipus;legut_szerviz;gyartas_idopont;terhelhetoseg;muszaki_lejarat;tankterfogat;sajat_tomeg;uzemanyag_tipus;rendszama;alvazszam;hengerurtartalom;max_teljesitmeny
-i;i;i;i;s;s;s;s;i;s;i;i;s,s;s;i;i
-
-
-jarmu_id;jarmu_kat_id;park_hely_id;futott_km;marka;tipus;legut_szerviz;gyartas_idopont;terhelhetoseg;muszaki_lejarat;tankterfogat;sajat_tomeg;uzemanyag_tipus;rendszama;alvazszam;hengerurtartalom;max_teljesitmeny
+i;i;i;i;s;s;s;s;i;s;i;i;s;s;s;i;i
 1;9;3;375400;MERCEDES-BENZ;Atego;2026-08-15;2003/12;6320;2026/12;1;5670;dízel;ABC-123;ASZ-123;4249;177
 2;9;8;289370;MERCEDES-BENZ;UNIMOG U403;2026-07-27;1973/01;2300;2027/06;1;3500;dízel;ABC-456;ASZ-456;3758;66
 3;11;4;651047;SCANIA;R500 A4X2LA;2026-07-01;2021/09;30000;2026/08;1;8188;dízel;ABC-789;ASZ-789;12742;500
+4;6;2;287537;SKODA;Octavia Combi 2.0 CR TDI Style;2026-06-30;2019/09;570;2028/07;1;1354;dízel;BCD-123;ASZ-987;1968;150
+5;6;7;183000;VOLKSWAGEN;Caddy Cargo 2.0 TDI RT;2026-09-30;2023/03;744;2027/03;1;1476;dízel;BCD-456;ASZ-654;1968;102
+6;6;12;5333;TOYOTA;Proace EV Comfort Smart Cargo - L2H1;2026-09-19;2026/01;1005;2030/01;1;2095;elektromos;BCD-789;ASZ-321;0;136
+7;11;9;290500;MAN;TGX 18.470 4x2 LL SA;2026-10-01;2022/10;30000;2029/07;1;8060;dízel;CDE-123;ASZ-012;12419;470
