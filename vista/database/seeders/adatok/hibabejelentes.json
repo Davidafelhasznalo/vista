@@ -1,0 +1,302 @@
+[
+	{
+		"hiba_id": 1,
+		"jarmu_id": 1,
+		"dolgozo_id": 2,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-01-12",
+		"felbukkanas_datum": "2026-01-10",
+		"leiras": "Motorolaj szivárgás tapasztalható a motorblokk alsó részén",
+		"jav_allapot": "Javításra vár"
+	},
+	{
+		"hiba_id": 2,
+		"jarmu_id": 2,
+		"dolgozo_id": 3,
+		"sulyossag_kat_id": 3,
+		"bejelentes_datum": "2026-01-18",
+		"felbukkanas_datum": "2026-01-17",
+		"leiras": "A fékrendszer hatásfoka jelentősen csökkent fékezéskor",
+		"jav_allapot": "Azonnali javítás szükséges"
+	},
+	{
+		"hiba_id": 3,
+		"jarmu_id": 3,
+		"dolgozo_id": 1,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-01-25",
+		"felbukkanas_datum": "2026-01-23",
+		"leiras": "A sebességváltó nehezen kapcsolható és rendellenes hangot ad",
+		"jav_allapot": "Javítás folyamatban"
+	},
+	{
+		"hiba_id": 4,
+		"jarmu_id": 1,
+		"dolgozo_id": 2,
+		"sulyossag_kat_id": 1,
+		"bejelentes_datum": "2026-02-04",
+		"felbukkanas_datum": "2026-02-03",
+		"leiras": "A bal oldali fényszóró időszakosan nem működik",
+		"jav_allapot": "Javítva"
+	},
+	{
+		"hiba_id": 5,
+		"jarmu_id": 2,
+		"dolgozo_id": 4,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-02-11",
+		"felbukkanas_datum": "2026-02-09",
+		"leiras": "A hűtőfolyadék szintje rendszeresen csökken",
+		"jav_allapot": "Alkatrészbeszerzés alatt"
+	},
+	{
+		"hiba_id": 6,
+		"jarmu_id": 3,
+		"dolgozo_id": 1,
+		"sulyossag_kat_id": 3,
+		"bejelentes_datum": "2026-02-20",
+		"felbukkanas_datum": "2026-02-19",
+		"leiras": "A motor teljesítménye terhelés alatt jelentősen visszaesik",
+		"jav_allapot": "Javításra vár"
+	},
+	{
+		"hiba_id": 7,
+		"jarmu_id": 1,
+		"dolgozo_id": 3,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-03-02",
+		"felbukkanas_datum": "2026-02-28",
+		"leiras": "A kuplung csúszik és nehezen veszi a sebességeket",
+		"jav_allapot": "Javítva"
+	},
+	{
+		"hiba_id": 8,
+		"jarmu_id": 2,
+		"dolgozo_id": 3,
+		"sulyossag_kat_id": 1,
+		"bejelentes_datum": "2026-03-14",
+		"felbukkanas_datum": "2026-03-13",
+		"leiras": "A vezetőoldali elektromos ablakemelő nem működik",
+		"jav_allapot": "Javítás folyamatban"
+	},
+	{
+		"hiba_id": 9,
+		"jarmu_id": 3,
+		"dolgozo_id": 4,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-03-22",
+		"felbukkanas_datum": "2026-03-20",
+		"leiras": "A légfékrendszerből levegőszivárgás hallható",
+		"jav_allapot": "Javításra vár"
+	},
+	{
+		"hiba_id": 10,
+		"jarmu_id": 1,
+		"dolgozo_id": 2,
+		"sulyossag_kat_id": 1,
+		"bejelentes_datum": "2026-04-05",
+		"felbukkanas_datum": "2026-04-04",
+		"leiras": "A műszerfalon időszakosan hibajelzés jelenik meg",
+		"jav_allapot": "Javítva"
+	},
+	{
+		"hiba_id": 11,
+		"jarmu_id": 2,
+		"dolgozo_id": 4,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-04-16",
+		"felbukkanas_datum": "2026-04-14",
+		"leiras": "A motor túlmelegszik hosszabb utak során",
+		"jav_allapot": "Javítás folyamatban"
+	},
+	{
+		"hiba_id": 12,
+		"jarmu_id": 3,
+		"dolgozo_id": 1,
+		"sulyossag_kat_id": 3,
+		"bejelentes_datum": "2026-04-24",
+		"felbukkanas_datum": "2026-04-23",
+		"leiras": "A turbófeltöltő rendellenes sípoló hangot ad és csökkent a töltőnyomás",
+		"jav_allapot": "Javításra vár"
+	},
+	{
+		"hiba_id": 13,
+		"jarmu_id": 1,
+		"dolgozo_id": 3,
+		"sulyossag_kat_id": 1,
+		"bejelentes_datum": "2026-05-06",
+		"felbukkanas_datum": "2026-05-05",
+		"leiras": "A hátsó helyzetjelző lámpa nem világít",
+		"jav_allapot": "Javítva"
+	},
+	{
+		"hiba_id": 14,
+		"jarmu_id": 2,
+		"dolgozo_id": 3,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-05-17",
+		"felbukkanas_datum": "2026-05-15",
+		"leiras": "A futómű felől kopogó hang hallható egyenetlen úton",
+		"jav_allapot": "Alkatrészbeszerzés alatt"
+	},
+	{
+		"hiba_id": 15,
+		"jarmu_id": 3,
+		"dolgozo_id": 4,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-05-29",
+		"felbukkanas_datum": "2026-05-27",
+		"leiras": "A motorolaj nyomása időnként a megengedett érték alá csökken",
+		"jav_allapot": "Javítás folyamatban"
+	},
+	{
+		"hiba_id": 16,
+		"jarmu_id": 1,
+		"dolgozo_id": 2,
+		"sulyossag_kat_id": 3,
+		"bejelentes_datum": "2026-06-08",
+		"felbukkanas_datum": "2026-06-07",
+		"leiras": "A fékpedál beesik és a fékhatás jelentősen romlott",
+		"jav_allapot": "Azonnali javítás szükséges"
+	},
+	{
+		"hiba_id": 17,
+		"jarmu_id": 2,
+		"dolgozo_id": 4,
+		"sulyossag_kat_id": 1,
+		"bejelentes_datum": "2026-06-19",
+		"felbukkanas_datum": "2026-06-18",
+		"leiras": "A légkondicionáló nem hűti megfelelően az utasteret",
+		"jav_allapot": "Javítva"
+	},
+	{
+		"hiba_id": 18,
+		"jarmu_id": 3,
+		"dolgozo_id": 1,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-06-27",
+		"felbukkanas_datum": "2026-06-25",
+		"leiras": "A sebességváltó olajszivárgása észlelhető",
+		"jav_allapot": "Javításra vár"
+	},
+	{
+		"hiba_id": 19,
+		"jarmu_id": 1,
+		"dolgozo_id": 3,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-07-09",
+		"felbukkanas_datum": "2026-07-08",
+		"leiras": "A generátor töltése időszakosan megszakad",
+		"jav_allapot": "Javítás folyamatban"
+	},
+	{
+		"hiba_id": 20,
+		"jarmu_id": 2,
+		"dolgozo_id": 4,
+		"sulyossag_kat_id": 1,
+		"bejelentes_datum": "2026-07-21",
+		"felbukkanas_datum": "2026-07-20",
+		"leiras": "Az ablaktörlő motorja időnként leáll",
+		"jav_allapot": "Javítva"
+	},
+	{
+		"hiba_id": 21,
+		"jarmu_id": 3,
+		"dolgozo_id": 4,
+		"sulyossag_kat_id": 3,
+		"bejelentes_datum": "2026-07-30",
+		"felbukkanas_datum": "2026-07-29",
+		"leiras": "A motor menet közben leáll és nem indítható újra",
+		"jav_allapot": "Azonnali javítás szükséges"
+	},
+	{
+		"hiba_id": 22,
+		"jarmu_id": 1,
+		"dolgozo_id": 2,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-08-11",
+		"felbukkanas_datum": "2026-08-09",
+		"leiras": "A hátsó tengely egyik kerékcsapágya erős zajt ad",
+		"jav_allapot": "Alkatrészbeszerzés alatt"
+	},
+	{
+		"hiba_id": 23,
+		"jarmu_id": 2,
+		"dolgozo_id": 3,
+		"sulyossag_kat_id": 1,
+		"bejelentes_datum": "2026-08-22",
+		"felbukkanas_datum": "2026-08-21",
+		"leiras": "A kipufogórendszer egyik rögzítése meglazult",
+		"jav_allapot": "Javítva"
+	},
+	{
+		"hiba_id": 24,
+		"jarmu_id": 3,
+		"dolgozo_id": 1,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-08-31",
+		"felbukkanas_datum": "2026-08-30",
+		"leiras": "A kuplungpedál működése akadozik",
+		"jav_allapot": "Javítás folyamatban"
+	},
+	{
+		"hiba_id": 25,
+		"jarmu_id": 1,
+		"dolgozo_id": 3,
+		"sulyossag_kat_id": 1,
+		"bejelentes_datum": "2026-09-12",
+		"felbukkanas_datum": "2026-09-11",
+		"leiras": "A jobb oldali visszapillantó tükör elektromos állítása nem működik",
+		"jav_allapot": "Javítva"
+	},
+	{
+		"hiba_id": 26,
+		"jarmu_id": 2,
+		"dolgozo_id": 4,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-09-23",
+		"felbukkanas_datum": "2026-09-21",
+		"leiras": "A hűtőrendszer csöveinél kisebb szivárgás tapasztalható",
+		"jav_allapot": "Javításra vár"
+	},
+	{
+		"hiba_id": 27,
+		"jarmu_id": 3,
+		"dolgozo_id": 1,
+		"sulyossag_kat_id": 3,
+		"bejelentes_datum": "2026-10-04",
+		"felbukkanas_datum": "2026-10-03",
+		"leiras": "A kormánymű működése bizonytalanná vált és nehézkes a kormányzás",
+		"jav_allapot": "Azonnali javítás szükséges"
+	},
+	{
+		"hiba_id": 28,
+		"jarmu_id": 1,
+		"dolgozo_id": 2,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-10-15",
+		"felbukkanas_datum": "2026-10-13",
+		"leiras": "A motor alapjárata ingadozik és időnként lefullad",
+		"jav_allapot": "Javítás folyamatban"
+	},
+	{
+		"hiba_id": 29,
+		"jarmu_id": 2,
+		"dolgozo_id": 4,
+		"sulyossag_kat_id": 1,
+		"bejelentes_datum": "2026-10-26",
+		"felbukkanas_datum": "2026-10-25",
+		"leiras": "A jobb oldali irányjelző nem működik",
+		"jav_allapot": "Javítva"
+	},
+	{
+		"hiba_id": 30,
+		"jarmu_id": 3,
+		"dolgozo_id": 1,
+		"sulyossag_kat_id": 2,
+		"bejelentes_datum": "2026-11-05",
+		"felbukkanas_datum": "2026-11-04",
+		"leiras": "A fékrendszerből szokatlan súrlódó hang hallható",
+		"jav_allapot": "Javításra vár"
+	}
+]

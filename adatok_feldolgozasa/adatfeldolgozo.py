@@ -3,7 +3,7 @@ tipus = []
 adatok = []
 adatokKiiratasra = ""
 
-with open("./adatok_feldolgozasa/jarmu.txt", 'r', encoding='utf-8') as file:
+with open("./adatok_feldolgozasa/hibabejelentes.txt", 'r', encoding='utf-8') as file:
     hanyadszorfut = 1
     for sor in file:
         adat = sor.strip('\n').split(';')
@@ -36,6 +36,6 @@ for x in range(len(adatok)):
 adatokKiiratasra += "]\n"
 
 
-file = open('./vista/database/seeders/adatok/jarmu.json', 'w', encoding='utf-8')
+file = open('./vista/database/seeders/adatok/hibabejelentes.json', 'w', encoding='utf-8')
 file.write(adatokKiiratasra)
 file.close()

@@ -1,0 +1,422 @@
+[
+	{
+		"tankolas_id": 1,
+		"jarmu_id": 1,
+		"dolgozo_id": 1,
+		"megtett_km": 510,
+		"tankolt_liter": 68.0,
+		"fizetett": 47396,
+		"tankolas_datum": "2026-01-12",
+		"km_ora_allas": 371510
+	},
+	{
+		"tankolas_id": 2,
+		"jarmu_id": 2,
+		"dolgozo_id": 2,
+		"megtett_km": 320,
+		"tankolt_liter": 48.0,
+		"fizetett": 33792,
+		"tankolas_datum": "2026-01-12",
+		"km_ora_allas": 287100
+	},
+	{
+		"tankolas_id": 3,
+		"jarmu_id": 3,
+		"dolgozo_id": 3,
+		"megtett_km": 1250,
+		"tankolt_liter": 280.0,
+		"fizetett": 199080,
+		"tankolas_datum": "2026-01-12",
+		"km_ora_allas": 642250
+	},
+	{
+		"tankolas_id": 4,
+		"jarmu_id": 4,
+		"dolgozo_id": 4,
+		"megtett_km": 430,
+		"tankolt_liter": 58.0,
+		"fizetett": 41644,
+		"tankolas_datum": "2026-01-12",
+		"km_ora_allas": 181180
+	},
+	{
+		"tankolas_id": 5,
+		"jarmu_id": 5,
+		"dolgozo_id": 5,
+		"megtett_km": 620,
+		"tankolt_liter": 72.0,
+		"fizetett": 49968,
+		"tankolas_datum": "2026-01-12",
+		"km_ora_allas": 88500
+	},
+	{
+		"tankolas_id": 6,
+		"jarmu_id": 7,
+		"dolgozo_id": 7,
+		"megtett_km": 540,
+		"tankolt_liter": 65.0,
+		"fizetett": 46020,
+		"tankolas_datum": "2026-01-12",
+		"km_ora_allas": 243040
+	},
+	{
+		"tankolas_id": 7,
+		"jarmu_id": 1,
+		"dolgozo_id": 4,
+		"megtett_km": 620,
+		"tankolt_liter": 82.0,
+		"fizetett": 58056,
+		"tankolas_datum": "2026-02-18",
+		"km_ora_allas": 372130
+	},
+	{
+		"tankolas_id": 8,
+		"jarmu_id": 2,
+		"dolgozo_id": 5,
+		"megtett_km": 410,
+		"tankolt_liter": 62.5,
+		"fizetett": 44688,
+		"tankolas_datum": "2026-02-18",
+		"km_ora_allas": 287510
+	},
+	{
+		"tankolas_id": 9,
+		"jarmu_id": 3,
+		"dolgozo_id": 6,
+		"megtett_km": 1480,
+		"tankolt_liter": 320.0,
+		"fizetett": 221120,
+		"tankolas_datum": "2026-02-18",
+		"km_ora_allas": 643730
+	},
+	{
+		"tankolas_id": 10,
+		"jarmu_id": 4,
+		"dolgozo_id": 7,
+		"megtett_km": 510,
+		"tankolt_liter": 67.0,
+		"fizetett": 46766,
+		"tankolas_datum": "2026-02-18",
+		"km_ora_allas": 181690
+	},
+	{
+		"tankolas_id": 11,
+		"jarmu_id": 5,
+		"dolgozo_id": 8,
+		"megtett_km": 710,
+		"tankolt_liter": 83.0,
+		"fizetett": 58515,
+		"tankolas_datum": "2026-02-18",
+		"km_ora_allas": 89210
+	},
+	{
+		"tankolas_id": 12,
+		"jarmu_id": 7,
+		"dolgozo_id": 2,
+		"megtett_km": 610,
+		"tankolt_liter": 73.0,
+		"fizetett": 52487,
+		"tankolas_datum": "2026-02-18",
+		"km_ora_allas": 243650
+	},
+	{
+		"tankolas_id": 13,
+		"jarmu_id": 1,
+		"dolgozo_id": 7,
+		"megtett_km": 580,
+		"tankolt_liter": 76.0,
+		"fizetett": 54644,
+		"tankolas_datum": "2026-03-24",
+		"km_ora_allas": 372710
+	},
+	{
+		"tankolas_id": 14,
+		"jarmu_id": 2,
+		"dolgozo_id": 8,
+		"megtett_km": 280,
+		"tankolt_liter": 43.0,
+		"fizetett": 29885,
+		"tankolas_datum": "2026-03-24",
+		"km_ora_allas": 287790
+	},
+	{
+		"tankolas_id": 15,
+		"jarmu_id": 3,
+		"dolgozo_id": 1,
+		"megtett_km": 1320,
+		"tankolt_liter": 290.0,
+		"fizetett": 203580,
+		"tankolas_datum": "2026-03-24",
+		"km_ora_allas": 645050
+	},
+	{
+		"tankolas_id": 16,
+		"jarmu_id": 4,
+		"dolgozo_id": 2,
+		"megtett_km": 470,
+		"tankolt_liter": 62.0,
+		"fizetett": 43958,
+		"tankolas_datum": "2026-03-24",
+		"km_ora_allas": 182160
+	},
+	{
+		"tankolas_id": 17,
+		"jarmu_id": 5,
+		"dolgozo_id": 3,
+		"megtett_km": 680,
+		"tankolt_liter": 79.0,
+		"fizetett": 56564,
+		"tankolas_datum": "2026-03-24",
+		"km_ora_allas": 89890
+	},
+	{
+		"tankolas_id": 18,
+		"jarmu_id": 7,
+		"dolgozo_id": 5,
+		"megtett_km": 580,
+		"tankolt_liter": 70.0,
+		"fizetett": 48930,
+		"tankolas_datum": "2026-03-24",
+		"km_ora_allas": 244230
+	},
+	{
+		"tankolas_id": 19,
+		"jarmu_id": 1,
+		"dolgozo_id": 2,
+		"megtett_km": 690,
+		"tankolt_liter": 91.0,
+		"fizetett": 63609,
+		"tankolas_datum": "2026-05-06",
+		"km_ora_allas": 373400
+	},
+	{
+		"tankolas_id": 20,
+		"jarmu_id": 2,
+		"dolgozo_id": 3,
+		"megtett_km": 390,
+		"tankolt_liter": 59.0,
+		"fizetett": 41654,
+		"tankolas_datum": "2026-05-06",
+		"km_ora_allas": 288180
+	},
+	{
+		"tankolas_id": 21,
+		"jarmu_id": 3,
+		"dolgozo_id": 4,
+		"megtett_km": 1560,
+		"tankolt_liter": 340.0,
+		"fizetett": 242420,
+		"tankolas_datum": "2026-05-06",
+		"km_ora_allas": 646610
+	},
+	{
+		"tankolas_id": 22,
+		"jarmu_id": 4,
+		"dolgozo_id": 5,
+		"megtett_km": 560,
+		"tankolt_liter": 74.0,
+		"fizetett": 53280,
+		"tankolas_datum": "2026-05-06",
+		"km_ora_allas": 182720
+	},
+	{
+		"tankolas_id": 23,
+		"jarmu_id": 5,
+		"dolgozo_id": 6,
+		"megtett_km": 750,
+		"tankolt_liter": 88.0,
+		"fizetett": 61248,
+		"tankolas_datum": "2026-05-06",
+		"km_ora_allas": 90640
+	},
+	{
+		"tankolas_id": 24,
+		"jarmu_id": 7,
+		"dolgozo_id": 8,
+		"megtett_km": 660,
+		"tankolt_liter": 79.0,
+		"fizetett": 56090,
+		"tankolas_datum": "2026-05-06",
+		"km_ora_allas": 244890
+	},
+	{
+		"tankolas_id": 25,
+		"jarmu_id": 1,
+		"dolgozo_id": 5,
+		"megtett_km": 640,
+		"tankolt_liter": 84.0,
+		"fizetett": 59640,
+		"tankolas_datum": "2026-06-17",
+		"km_ora_allas": 374040
+	},
+	{
+		"tankolas_id": 26,
+		"jarmu_id": 2,
+		"dolgozo_id": 6,
+		"megtett_km": 450,
+		"tankolt_liter": 68.0,
+		"fizetett": 48756,
+		"tankolas_datum": "2026-06-17",
+		"km_ora_allas": 288630
+	},
+	{
+		"tankolas_id": 27,
+		"jarmu_id": 3,
+		"dolgozo_id": 7,
+		"megtett_km": 1400,
+		"tankolt_liter": 310.0,
+		"fizetett": 214830,
+		"tankolas_datum": "2026-06-17",
+		"km_ora_allas": 648010
+	},
+	{
+		"tankolas_id": 28,
+		"jarmu_id": 4,
+		"dolgozo_id": 8,
+		"megtett_km": 490,
+		"tankolt_liter": 65.0,
+		"fizetett": 45500,
+		"tankolas_datum": "2026-06-17",
+		"km_ora_allas": 183210
+	},
+	{
+		"tankolas_id": 29,
+		"jarmu_id": 5,
+		"dolgozo_id": 1,
+		"megtett_km": 690,
+		"tankolt_liter": 81.0,
+		"fizetett": 57267,
+		"tankolas_datum": "2026-06-17",
+		"km_ora_allas": 91330
+	},
+	{
+		"tankolas_id": 30,
+		"jarmu_id": 7,
+		"dolgozo_id": 3,
+		"megtett_km": 620,
+		"tankolt_liter": 75.0,
+		"fizetett": 51750,
+		"tankolas_datum": "2026-06-17",
+		"km_ora_allas": 245510
+	},
+	{
+		"tankolas_id": 31,
+		"jarmu_id": 1,
+		"dolgozo_id": 8,
+		"megtett_km": 710,
+		"tankolt_liter": 94.0,
+		"fizetett": 64860,
+		"tankolas_datum": "2026-08-11",
+		"km_ora_allas": 374750
+	},
+	{
+		"tankolas_id": 32,
+		"jarmu_id": 2,
+		"dolgozo_id": 1,
+		"megtett_km": 340,
+		"tankolt_liter": 52.0,
+		"fizetett": 36244,
+		"tankolas_datum": "2026-08-11",
+		"km_ora_allas": 288970
+	},
+	{
+		"tankolas_id": 33,
+		"jarmu_id": 3,
+		"dolgozo_id": 2,
+		"megtett_km": 1680,
+		"tankolt_liter": 360.0,
+		"fizetett": 253440,
+		"tankolas_datum": "2026-08-11",
+		"km_ora_allas": 649690
+	},
+	{
+		"tankolas_id": 34,
+		"jarmu_id": 4,
+		"dolgozo_id": 3,
+		"megtett_km": 530,
+		"tankolt_liter": 70.0,
+		"fizetett": 49770,
+		"tankolas_datum": "2026-08-11",
+		"km_ora_allas": 183740
+	},
+	{
+		"tankolas_id": 35,
+		"jarmu_id": 5,
+		"dolgozo_id": 4,
+		"megtett_km": 720,
+		"tankolt_liter": 85.0,
+		"fizetett": 61030,
+		"tankolas_datum": "2026-08-11",
+		"km_ora_allas": 92050
+	},
+	{
+		"tankolas_id": 36,
+		"jarmu_id": 7,
+		"dolgozo_id": 6,
+		"megtett_km": 700,
+		"tankolt_liter": 84.0,
+		"fizetett": 58884,
+		"tankolas_datum": "2026-08-11",
+		"km_ora_allas": 246210
+	},
+	{
+		"tankolas_id": 37,
+		"jarmu_id": 1,
+		"dolgozo_id": 3,
+		"megtett_km": 650,
+		"tankolt_liter": 86.0,
+		"fizetett": 60286,
+		"tankolas_datum": "2026-10-22",
+		"km_ora_allas": 375400
+	},
+	{
+		"tankolas_id": 38,
+		"jarmu_id": 2,
+		"dolgozo_id": 4,
+		"megtett_km": 400,
+		"tankolt_liter": 61.0,
+		"fizetett": 43188,
+		"tankolas_datum": "2026-10-22",
+		"km_ora_allas": 289370
+	},
+	{
+		"tankolas_id": 39,
+		"jarmu_id": 3,
+		"dolgozo_id": 5,
+		"megtett_km": 1357,
+		"tankolt_liter": 300.0,
+		"fizetett": 214500,
+		"tankolas_datum": "2026-10-22",
+		"km_ora_allas": 651047
+	},
+	{
+		"tankolas_id": 40,
+		"jarmu_id": 4,
+		"dolgozo_id": 6,
+		"megtett_km": 510,
+		"tankolt_liter": 68.0,
+		"fizetett": 46988,
+		"tankolas_datum": "2026-10-22",
+		"km_ora_allas": 184250
+	},
+	{
+		"tankolas_id": 41,
+		"jarmu_id": 5,
+		"dolgozo_id": 7,
+		"megtett_km": 730,
+		"tankolt_liter": 86.0,
+		"fizetett": 60028,
+		"tankolas_datum": "2026-10-22",
+		"km_ora_allas": 92780
+	},
+	{
+		"tankolas_id": 42,
+		"jarmu_id": 7,
+		"dolgozo_id": 1,
+		"megtett_km": 690,
+		"tankolt_liter": 82.0,
+		"fizetett": 58384,
+		"tankolas_datum": "2026-10-22",
+		"km_ora_allas": 246900
+	}
+]
