@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react'
+import { useAuth } from '../../context/LoginContext'
+import { NavLink } from 'react-router-dom'
 import classes from './Header.module.css'
-import holdIkon from '../assets/moon.png'
-import napIkon from '../assets/sun.png'
+import holdIkon from './images/moon.png'
+import napIkon from './images/sun.png'
+
 
 const Header = () => {
     const [sotet, setSotet] = useState(false)
@@ -9,6 +12,8 @@ const Header = () => {
     useEffect(() => {
         document.documentElement.setAttribute('data-bs-theme', sotet ? 'dark' : 'light')
     }, [sotet])
+
+    const {isLogged, logout} = useAuth()
 
     return (
         <header className="border-bottom py-3">
@@ -28,9 +33,7 @@ const Header = () => {
                         <img src={sotet ? napIkon : holdIkon} alt="" />
                     </button>
 
-                    <button className={`btn btn-sm rounded-pill px-3 ${classes.gomb}`}>
-                        Bejelentkezés
-                    </button>
+                    {!isLogged ? <NavLink to='login'>Bejelentkezés</NavLink> : <a onClick={logout} className={classes.isActive}>Kijelentkezés</a>}
                 </div>
             </div>
         </header>

@@ -20,7 +20,7 @@ const Hero = () => {
 
                 <div className="col-md-6">
                     <div className={`position-relative overflow-hidden rounded-4 ${classes.kep}`}>
-                        <img src="/images/auto.jpeg" alt="" className="w-100 h-100 object-fit-cover"/>
+                        <img src="/images/LandingPage/auto.jpeg" alt="" className="w-100 h-100 object-fit-cover"/>
                     </div>
                 </div>
             </div>
