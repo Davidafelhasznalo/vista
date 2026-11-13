@@ -1,0 +1,26 @@
+szerviz_id;jarmu_id;szerviz_nev;jav_kezd_datum;jav_bef_datum;javitott;javitas_ar
+i;i;s;s;s;s;i
+1;1;Veszprémi Kamion Szerviz Kft.;2026-01-15;2026-01-15;Motorolaj és olajszűrő cseréje;85000
+2;2;Truck Service Hungary Kft.;2026-01-22;2026-01-24;Fékbetétek és féktárcsák cseréje;245000
+3;3;Scania Hungária Szerviz;2026-02-03;2026-02-05;Váltóolaj csere és tömítések ellenőrzése;180000
+4;1;Mercedes-Benz Szerviz Centrum;2026-02-18;2026-02-20;Lengéscsillapítók és stabilizátor szilentek cseréje;320000
+5;2;Dunaújvárosi Tehergépjármű Szerviz;2026-03-04;2026-03-05;Hűtőfolyadék és vízpumpa cseréje;165000
+6;3;Truck Service Hungary Kft.;2026-03-16;2026-03-20;Befecskendező rendszer javítása;475000
+7;1;Veszprémi Kamion Szerviz Kft.;2026-04-02;2026-04-04;Kuplungszerkezet és kinyomócsapágy cseréje;390000
+8;2;Mercedes-Benz Szerviz Centrum;2026-04-15;2026-04-16;Generátor és akkumulátor ellenőrzése és javítása;125000
+9;3;Scania Hungária Szerviz;2026-05-07;2026-05-08;Légszárító patron és szelepek cseréje;210000
+10;1;Veszprémi Kamion Szerviz Kft.;2026-05-19;2026-05-20;Teljes körű műszaki állapotfelmérés és kisebb hibák javítása;95000
+11;2;Truck Service Hungary Kft.;2026-06-03;2026-06-04;Motorolaj és levegőszűrő cseréje;110000
+12;3;Scania Hungária Szerviz;2026-06-17;2026-06-21;Féknyergek felújítása és fékbetétek cseréje;520000
+13;1;Mercedes-Benz Szerviz Centrum;2026-07-06;2026-07-06;Akkumulátor cseréje és töltőrendszer ellenőrzése;145000
+14;2;Dunaújvárosi Tehergépjármű Szerviz;2026-07-20;2026-07-23;Váltócsapágyak és tömítések cseréje;365000
+15;3;Scania Hungária Szerviz;2026-08-05;2026-08-06;Futómű geometria ellenőrzése és beállítása;85000
+16;1;Veszprémi Kamion Szerviz Kft.;2026-08-18;2026-08-19;Hűtőfolyadék csere és hűtő tisztítása;95000
+17;2;Truck Service Hungary Kft.;2026-09-02;2026-09-05;Kuplungtárcsa és kinyomócsapágy cseréje;285000
+18;3;Scania Hungária Szerviz;2026-09-14;2026-09-18;Turbófeltöltő felújítása és tömítések cseréje;680000
+19;1;Mercedes-Benz Szerviz Centrum;2026-10-01;2026-10-02;Generátor csapágyainak és feszültségszabályzójának cseréje;175000
+20;2;Dunaújvárosi Tehergépjármű Szerviz;2026-10-12;2026-10-13;Fékek világítás és futómű ellenőrzése;105000
+21;3;Scania Hungária Szerviz;2026-10-26;2026-10-27;Motorolaj és olajszűrő cseréje;135000
+22;1;Veszprémi Kamion Szerviz Kft.;2026-11-03;2026-11-04;Klímarendszer tömítéseinek cseréje és újratöltése;125000
+23;2;Truck Service Hungary Kft.;2026-11-09;2026-11-10;Fékfolyadék csere és fékcsövek ellenőrzése;95000
+24;3;Scania Hungária Szerviz;2026-11-11;2026-11-12;Kábelezés és vezérlőegységek hibáinak javítása;215000

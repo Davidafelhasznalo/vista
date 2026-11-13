@@ -1,0 +1,218 @@
+[
+	{
+		"szerviz_id": 1,
+		"jarmu_id": 1,
+		"szerviz_nev": "Veszprémi Kamion Szerviz Kft.",
+		"jav_kezd_datum": "2026-01-15",
+		"jav_bef_datum": "2026-01-15",
+		"javitott": "Motorolaj és olajszűrő cseréje",
+		"javitas_ar": 85000
+	},
+	{
+		"szerviz_id": 2,
+		"jarmu_id": 2,
+		"szerviz_nev": "Truck Service Hungary Kft.",
+		"jav_kezd_datum": "2026-01-22",
+		"jav_bef_datum": "2026-01-24",
+		"javitott": "Fékbetétek és féktárcsák cseréje",
+		"javitas_ar": 245000
+	},
+	{
+		"szerviz_id": 3,
+		"jarmu_id": 3,
+		"szerviz_nev": "Scania Hungária Szerviz",
+		"jav_kezd_datum": "2026-02-03",
+		"jav_bef_datum": "2026-02-05",
+		"javitott": "Váltóolaj csere és tömítések ellenőrzése",
+		"javitas_ar": 180000
+	},
+	{
+		"szerviz_id": 4,
+		"jarmu_id": 1,
+		"szerviz_nev": "Mercedes-Benz Szerviz Centrum",
+		"jav_kezd_datum": "2026-02-18",
+		"jav_bef_datum": "2026-02-20",
+		"javitott": "Lengéscsillapítók és stabilizátor szilentek cseréje",
+		"javitas_ar": 320000
+	},
+	{
+		"szerviz_id": 5,
+		"jarmu_id": 2,
+		"szerviz_nev": "Dunaújvárosi Tehergépjármű Szerviz",
+		"jav_kezd_datum": "2026-03-04",
+		"jav_bef_datum": "2026-03-05",
+		"javitott": "Hűtőfolyadék és vízpumpa cseréje",
+		"javitas_ar": 165000
+	},
+	{
+		"szerviz_id": 6,
+		"jarmu_id": 3,
+		"szerviz_nev": "Truck Service Hungary Kft.",
+		"jav_kezd_datum": "2026-03-16",
+		"jav_bef_datum": "2026-03-20",
+		"javitott": "Befecskendező rendszer javítása",
+		"javitas_ar": 475000
+	},
+	{
+		"szerviz_id": 7,
+		"jarmu_id": 1,
+		"szerviz_nev": "Veszprémi Kamion Szerviz Kft.",
+		"jav_kezd_datum": "2026-04-02",
+		"jav_bef_datum": "2026-04-04",
+		"javitott": "Kuplungszerkezet és kinyomócsapágy cseréje",
+		"javitas_ar": 390000
+	},
+	{
+		"szerviz_id": 8,
+		"jarmu_id": 2,
+		"szerviz_nev": "Mercedes-Benz Szerviz Centrum",
+		"jav_kezd_datum": "2026-04-15",
+		"jav_bef_datum": "2026-04-16",
+		"javitott": "Generátor és akkumulátor ellenőrzése és javítása",
+		"javitas_ar": 125000
+	},
+	{
+		"szerviz_id": 9,
+		"jarmu_id": 3,
+		"szerviz_nev": "Scania Hungária Szerviz",
+		"jav_kezd_datum": "2026-05-07",
+		"jav_bef_datum": "2026-05-08",
+		"javitott": "Légszárító patron és szelepek cseréje",
+		"javitas_ar": 210000
+	},
+	{
+		"szerviz_id": 10,
+		"jarmu_id": 1,
+		"szerviz_nev": "Veszprémi Kamion Szerviz Kft.",
+		"jav_kezd_datum": "2026-05-19",
+		"jav_bef_datum": "2026-05-20",
+		"javitott": "Teljes körű műszaki állapotfelmérés és kisebb hibák javítása",
+		"javitas_ar": 95000
+	},
+	{
+		"szerviz_id": 11,
+		"jarmu_id": 2,
+		"szerviz_nev": "Truck Service Hungary Kft.",
+		"jav_kezd_datum": "2026-06-03",
+		"jav_bef_datum": "2026-06-04",
+		"javitott": "Motorolaj és levegőszűrő cseréje",
+		"javitas_ar": 110000
+	},
+	{
+		"szerviz_id": 12,
+		"jarmu_id": 3,
+		"szerviz_nev": "Scania Hungária Szerviz",
+		"jav_kezd_datum": "2026-06-17",
+		"jav_bef_datum": "2026-06-21",
+		"javitott": "Féknyergek felújítása és fékbetétek cseréje",
+		"javitas_ar": 520000
+	},
+	{
+		"szerviz_id": 13,
+		"jarmu_id": 1,
+		"szerviz_nev": "Mercedes-Benz Szerviz Centrum",
+		"jav_kezd_datum": "2026-07-06",
+		"jav_bef_datum": "2026-07-06",
+		"javitott": "Akkumulátor cseréje és töltőrendszer ellenőrzése",
+		"javitas_ar": 145000
+	},
+	{
+		"szerviz_id": 14,
+		"jarmu_id": 2,
+		"szerviz_nev": "Dunaújvárosi Tehergépjármű Szerviz",
+		"jav_kezd_datum": "2026-07-20",
+		"jav_bef_datum": "2026-07-23",
+		"javitott": "Váltócsapágyak és tömítések cseréje",
+		"javitas_ar": 365000
+	},
+	{
+		"szerviz_id": 15,
+		"jarmu_id": 3,
+		"szerviz_nev": "Scania Hungária Szerviz",
+		"jav_kezd_datum": "2026-08-05",
+		"jav_bef_datum": "2026-08-06",
+		"javitott": "Futómű geometria ellenőrzése és beállítása",
+		"javitas_ar": 85000
+	},
+	{
+		"szerviz_id": 16,
+		"jarmu_id": 1,
+		"szerviz_nev": "Veszprémi Kamion Szerviz Kft.",
+		"jav_kezd_datum": "2026-08-18",
+		"jav_bef_datum": "2026-08-19",
+		"javitott": "Hűtőfolyadék csere és hűtő tisztítása",
+		"javitas_ar": 95000
+	},
+	{
+		"szerviz_id": 17,
+		"jarmu_id": 2,
+		"szerviz_nev": "Truck Service Hungary Kft.",
+		"jav_kezd_datum": "2026-09-02",
+		"jav_bef_datum": "2026-09-05",
+		"javitott": "Kuplungtárcsa és kinyomócsapágy cseréje",
+		"javitas_ar": 285000
+	},
+	{
+		"szerviz_id": 18,
+		"jarmu_id": 3,
+		"szerviz_nev": "Scania Hungária Szerviz",
+		"jav_kezd_datum": "2026-09-14",
+		"jav_bef_datum": "2026-09-18",
+		"javitott": "Turbófeltöltő felújítása és tömítések cseréje",
+		"javitas_ar": 680000
+	},
+	{
+		"szerviz_id": 19,
+		"jarmu_id": 1,
+		"szerviz_nev": "Mercedes-Benz Szerviz Centrum",
+		"jav_kezd_datum": "2026-10-01",
+		"jav_bef_datum": "2026-10-02",
+		"javitott": "Generátor csapágyainak és feszültségszabályzójának cseréje",
+		"javitas_ar": 175000
+	},
+	{
+		"szerviz_id": 20,
+		"jarmu_id": 2,
+		"szerviz_nev": "Dunaújvárosi Tehergépjármű Szerviz",
+		"jav_kezd_datum": "2026-10-12",
+		"jav_bef_datum": "2026-10-13",
+		"javitott": "Fékek világítás és futómű ellenőrzése",
+		"javitas_ar": 105000
+	},
+	{
+		"szerviz_id": 21,
+		"jarmu_id": 3,
+		"szerviz_nev": "Scania Hungária Szerviz",
+		"jav_kezd_datum": "2026-10-26",
+		"jav_bef_datum": "2026-10-27",
+		"javitott": "Motorolaj és olajszűrő cseréje",
+		"javitas_ar": 135000
+	},
+	{
+		"szerviz_id": 22,
+		"jarmu_id": 1,
+		"szerviz_nev": "Veszprémi Kamion Szerviz Kft.",
+		"jav_kezd_datum": "2026-11-03",
+		"jav_bef_datum": "2026-11-04",
+		"javitott": "Klímarendszer tömítéseinek cseréje és újratöltése",
+		"javitas_ar": 125000
+	},
+	{
+		"szerviz_id": 23,
+		"jarmu_id": 2,
+		"szerviz_nev": "Truck Service Hungary Kft.",
+		"jav_kezd_datum": "2026-11-09",
+		"jav_bef_datum": "2026-11-10",
+		"javitott": "Fékfolyadék csere és fékcsövek ellenőrzése",
+		"javitas_ar": 95000
+	},
+	{
+		"szerviz_id": 24,
+		"jarmu_id": 3,
+		"szerviz_nev": "Scania Hungária Szerviz",
+		"jav_kezd_datum": "2026-11-11",
+		"jav_bef_datum": "2026-11-12",
+		"javitott": "Kábelezés és vezérlőegységek hibáinak javítása",
+		"javitas_ar": 215000
+	}
+]
