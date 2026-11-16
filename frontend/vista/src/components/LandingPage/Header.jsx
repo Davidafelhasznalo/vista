@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useAuth } from '../../context/LoginContext'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import classes from './Header.module.css'
 import holdIkon from './images/moon.png'
 import napIkon from './images/sun.png'
@@ -13,11 +13,18 @@ const Header = () => {
         document.documentElement.setAttribute('data-bs-theme', sotet ? 'dark' : 'light')
     }, [sotet])
 
-    const {isLogged, logout} = useAuth()
+    const { isLogged, logout } = useAuth()
+
+    const { pathname } = useLocation()
+
+    const handleLogout = () => {
+        logout()
+        alert('Sikeres kijelentkezés')
+    }
 
     return (
         <header className="border-bottom py-3">
-            <div className="container-fluid d-flex justify-content-between align-items-center">
+            <div className="container-fluid px-4 px-lg-5 d-flex justify-content-between align-items-center">
                 <div className={`rounded-circle d-flex align-items-center justify-content-center fw-bold ${classes.logo}`}>
                     V
                 </div>
@@ -33,7 +40,19 @@ const Header = () => {
                         <img src={sotet ? napIkon : holdIkon} alt="" />
                     </button>
 
-                    {!isLogged ? <NavLink to='login'>Bejelentkezés</NavLink> : <a onClick={logout} className={classes.isActive}>Kijelentkezés</a>}
+                    {isLogged ? (
+                        <button onClick={handleLogout} className={`btn btn-sm rounded-pill px-3 ${classes.gomb}`}>
+                            Kijelentkezés
+                        </button>
+                    ) : pathname === '/login' ? (
+                        <NavLink to="/" className={`btn btn-sm rounded-pill px-3 ${classes.gomb}`}>
+                            Vissza
+                        </NavLink>
+                    ) : (
+                        <NavLink to="/login" className={`btn btn-sm rounded-pill px-3 ${classes.gomb}`}>
+                            Bejelentkezés
+                        </NavLink>
+                    )}
                 </div>
             </div>
         </header>

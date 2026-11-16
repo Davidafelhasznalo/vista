@@ -2,7 +2,7 @@ import classes from './Hero.module.css'
 
 const Hero = () => {
     return (
-        <section className="container-fluid py-5">
+        <section className="container-fluid px-4 px-lg-5 py-5">
             <div className="row align-items-center g-5">
                 <div className="col-md-6">
                     <h1 className="display-5 fw-bold lh-1 mb-3">

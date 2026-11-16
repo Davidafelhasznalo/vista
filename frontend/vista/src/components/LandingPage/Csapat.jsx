@@ -6,7 +6,7 @@ const fejlesztok = [
 const Csapat = () => {
     return (
         <section className="bg-body-tertiary py-5">
-            <div className="container-fluid">
+            <div className="container-fluid px-4 px-lg-5">
                 <div className="row g-5">
 
                     <div className="col-md-6">

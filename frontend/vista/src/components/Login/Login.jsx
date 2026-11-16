@@ -1,38 +1,51 @@
-import { useRef } from "react"
+import { useRef, useState } from "react"
 import { useAuth } from "../../context/LoginContext.jsx"
-import { useNavigate } from 'react-router-dom'
+import { Navigate } from 'react-router-dom'
+import classes from './Login.module.css'
 
 
 const Login = () => {
     const username = useRef()
-    const { login } = useAuth()
-    const navigate = useNavigate()
+    const password = useRef()
+    const { isLogged, login } = useAuth()
+    const [hiba, setHiba] = useState('')
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        if (username.current.value !== "") {
-            login()
-            navigate('/form')
-        }
-        else {
-            alert('Hibás felhasználónév')
+        const sikeres = login(username.current.value, password.current.value)
+
+        if (!sikeres) {
+            setHiba('Hibás felhasználónév vagy jelszó')
         }
     }
 
+    if (isLogged) {
+        return <Navigate to="/" replace /> // még csak a landingra visz, ÁTIRNI!!!!!!
+    }
+
     return (
-        <div>
-            <form onSubmit={handleSubmit}>
-                <input
-                    type="text"
-                    placeholder="Felhasználónév"
-                    ref={username}
-                />
-                <input
-                    type="password"
-                    placeholder="Jelszó"
-                />
-                <button type="submit">Belépés</button>
-            </form>
+         <div className="container flex-grow-1 d-flex align-items-center justify-content-center py-5">
+            <div className={`w-100 ${classes.doboz}`}>
+                <form onSubmit={handleSubmit} className="bg-body-secondary border rounded-4 p-4">
+                    <h2 className="fw-bold text-center mb-4">Üdvözöljük!</h2>
+
+                    {hiba && <div className="alert alert-danger py-2 small">{hiba}</div>}
+
+                    <div className="mb-3">
+                        <label htmlFor="username" className="form-label small">Felhasználónév</label>
+                        <input id="username" type="text" className="form-control" ref={username} />
+                    </div>
+
+                    <div className="mb-4">
+                        <label htmlFor="password" className="form-label small">Jelszó</label>
+                        <input id="password" type="password" className="form-control" ref={password} />
+                    </div>
+
+                    <button type="submit" className={`btn w-100 rounded-pill ${classes.gomb}`}>
+                        Bejelentkezés
+                    </button>
+                </form>
+            </div>
         </div>
     )
 }

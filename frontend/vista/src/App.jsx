@@ -15,12 +15,16 @@ function App() {
   return (
     <div>
       <AuthProvider>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path='login' element={<Login />} />
-        </Routes>
-        <Footer />
+        <div className="d-flex flex-column min-vh-100">
+          <Header />
+          <div className="flex-grow-1 d-flex flex-column">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path='login' element={<Login />} />
+            </Routes>
+          </div>
+          <Footer />
+        </div>
       </AuthProvider>
     </div>
   )

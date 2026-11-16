@@ -10,7 +10,7 @@ const funkciok = [
 
 const Funkciok = () => {
     return (
-        <section className="container-fluid py-5">
+        <section className="container-fluid px-4 px-lg-5 py-5">
             <p className="label">03 / Funkciók</p>
             <h2 className="fw-bold">Minden, ami mozgásban tart.</h2>
             <p className="small text-body-secondary mt-2 mb-4">A mindennapi feladatoktól a nagyobb döntésekig.</p>

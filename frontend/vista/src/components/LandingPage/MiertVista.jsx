@@ -19,7 +19,7 @@ const kartyak = [
 const MiertVista = () => {
     return (
         <section className="bg-dark text-white py-5">
-            <div className="container-fluid">
+            <div className="container-fluid px-4 px-lg-5">
                 <p className="label text-lime">02 / Miért VISTA?</p>
                 <h2 className="fw-bold mb-4">A kezedben az irányítás.</h2>
                 <div className="row g-3">

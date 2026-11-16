@@ -1,6 +1,6 @@
 const Bemutatkozas = () => {
     return (
-        <section className="container-fluid">
+        <section className="container-fluid px-4 px-lg-5">
             <div className="border-top py-5">
                 <div className="row g-4">
 
