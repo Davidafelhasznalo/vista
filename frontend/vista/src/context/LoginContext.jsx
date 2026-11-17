@@ -1,9 +1,10 @@
-import { useState, createContext, useContext } from 'react'
+import { useState, createContext, useContext } from 'react';
 
-const AuthContext = createContext()
+const AuthContext = createContext();
 
-export function AuthProvider({children}){
-    const [isLogged, setIsLogged] = useState(false)
+
+export function AuthProvider({children}) {
+    const [isLogged, setIsLogged] = useState(false);
 
     const login = (username, password) => {
         if (username === 'admin' && password === '123456') {
@@ -22,4 +23,4 @@ export function AuthProvider({children}){
     )
 }
 
-export const useAuth = () =>useContext(AuthContext)
+export const useAuth = () =>useContext(AuthContext);

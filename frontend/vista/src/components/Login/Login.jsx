@@ -1,26 +1,26 @@
-import { useRef, useState } from "react"
-import { useAuth } from "../../context/LoginContext.jsx"
-import { Navigate } from 'react-router-dom'
-import classes from './Login.module.css'
+import { useRef, useState } from "react";
+import { useAuth } from "../../context/LoginContext.jsx";
+import { Navigate } from 'react-router-dom';
+import classes from './Login.module.css';
 
 
 const Login = () => {
-    const username = useRef()
-    const password = useRef()
-    const { isLogged, login } = useAuth()
-    const [hiba, setHiba] = useState('')
+    const username = useRef();
+    const password = useRef();
+    const { isLogged, login } = useAuth();
+    const [hiba, setHiba] = useState('');
 
     const handleSubmit = (e) => {
-        e.preventDefault()
-        const sikeres = login(username.current.value, password.current.value)
+        e.preventDefault();
+        const sikeres = login(username.current.value, password.current.value);
 
         if (!sikeres) {
-            setHiba('Hibás felhasználónév vagy jelszó')
+            setHiba('Hibás felhasználónév vagy jelszó');
         }
     }
 
     if (isLogged) {
-        return <Navigate to="/" replace /> // még csak a landingra visz, ÁTIRNI!!!!!!
+        return <Navigate to="/" replace />; // még csak a landingra visz, ÁTIRNI!!!!!!
     }
 
     return (
@@ -50,4 +50,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default Login;
