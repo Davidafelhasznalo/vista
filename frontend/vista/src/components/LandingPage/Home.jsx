@@ -6,7 +6,7 @@ import Csapat from './Csapat'
 
 const Home = () => {
     return (
-        <main>
+        <main className="oldal-belep">
             <Hero />
             <Bemutatkozas />
             <MiertVista />
