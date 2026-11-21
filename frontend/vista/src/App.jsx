@@ -7,11 +7,7 @@ import Footer from './components/LandingPage/Footer.jsx'
 import Home from './components/LandingPage/Home.jsx'
 import Login from './components/Login/Login.jsx'
 
-
-
-
 function App() {
-
   return (
     <div>
       <AuthProvider>

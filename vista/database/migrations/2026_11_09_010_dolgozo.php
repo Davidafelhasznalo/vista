@@ -10,8 +10,7 @@ return new class extends Migration {
             $table->increments('dolgozo_id');
             $table->unsignedInteger('jog_id');
             $table->unsignedInteger('vez_eng_id')->nullable();
-            $table->text('jelszo');
-            $table->text('jelszo_so');
+            $table->string('jelszo', 255);
             $table->string('telszam', 255);
             $table->string('email', 255);
             $table->text('ker_nev');
