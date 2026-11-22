@@ -15,6 +15,9 @@ class User extends Authenticatable {
     protected $primaryKey = 'dolgozo_id';
     public $timestamps = false;
 
+    // Az admin jog azonosítója a jog táblában (ellenőrizd az adatbázisban!)
+    const ADMIN_JOG_ID = 2;
+
     protected $fillable = [
         'jog_id',
         'vez_eng_id',
@@ -43,5 +46,10 @@ class User extends Authenticatable {
 
     public function getAuthPassword(): string {
         return $this->jelszo;
+    }
+
+    // Igaz, ha a bejelentkezett dolgozó admin
+    public function isAdmin(): bool {
+        return (int) $this->jog_id === self::ADMIN_JOG_ID;
     }
 }

@@ -26,6 +26,7 @@ class AuthController extends Controller {
 
         return response()->json([
             'user'  => $user,
+            'is_admin' => $user->isAdmin(),
             'token' => $token,
         ]);
     }
