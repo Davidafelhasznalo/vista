@@ -25,33 +25,23 @@ class User extends Authenticatable {
         'vez_nev',
     ];
 
-    // Ezek nem kerülnek ki a JSON válaszba
+    // Az itt megjelolt mezok nem fognak bekerulni a valasz json-be 
     protected $hidden = [
         'jelszo',
     ];
 
-    // A React a user.name mezőt használja, ezért ezt is visszaküldjük
-    protected $appends = ['name'];
-
     protected function casts(): array {
         return [
-            // Mentéskor automatikusan bcrypt hash-t készít,
-            // ha a mező még nincs hash-elve
             'jelszo' => 'hashed',
         ];
     }
 
-    // Megmondjuk a Laravelnek, melyik oszlop tárolja a jelszót
+    // Megadjuk, hogy az adatbazisban melyik mezo tarolja a jelszavakat
     public function getAuthPasswordName(): string {
         return 'jelszo';
     }
 
     public function getAuthPassword(): string {
         return $this->jelszo;
-    }
-
-    // Teljes név: vezetéknév + keresztnév
-    public function getNameAttribute(): string {
-        return trim($this->vez_nev . ' ' . $this->ker_nev);
     }
 }
