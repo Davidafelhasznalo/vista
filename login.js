@@ -16,7 +16,7 @@ const loginAsync = async () => {
         if (httpKapcsolat.ok) {
             const valasz = await httpKapcsolat.json();
             localStorage.setItem('token', valasz.token);
-            alert("Sikeres bejelentkezés!");
+            console.log("Sikeres bejelentkezés!");
         }
     } catch (error) {
         console.log(error);
@@ -33,9 +33,8 @@ const logoutAsync = async () => {
                 'Authorization': `Bearer ${token}`,
             }
         });
-        console.log(httpKapcsolat);
         if (httpKapcsolat.ok) {
-            alert("Sikeres kijelenkezés!");
+            console.log("Sikeres kijelenkezés!");
         }
     } 
     catch (error) {
@@ -46,5 +45,9 @@ const logoutAsync = async () => {
     }
 }
 
-// loginAsync();
-logoutAsync();
+const teszt = async () => {
+    loginAsync();
+    await logoutAsync();
+}
+
+teszt();
