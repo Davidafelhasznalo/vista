@@ -1,4 +1,4 @@
-import classes from './Hero.module.css'
+import classes from './Hero.module.css';
 
 const Hero = () => {
     return (
@@ -28,4 +28,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Hero;

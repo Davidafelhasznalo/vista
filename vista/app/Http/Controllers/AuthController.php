@@ -46,4 +46,21 @@ class AuthController extends Controller {
             'message' => 'Sikeres kijelentkezés.',
         ]);
     }
+
+    // REGISZTRACIO - meg ki kell szervezni kulon fajlba (most csak proba van)
+    public function registration(Request $request) {
+        $jog_id = $request->json('jog_id');
+        $vez_eng_id = $request->json('vez_eng_id');
+        $jelszo = $request->json('jelszo');
+        $telszam = $request->json('telszam');
+        $email = $request->json('email');
+        $ker_nev = $request->json('ker_nev');
+        $vez_nev = $request->json('vez_nev');
+
+        if (empty($jog_id) || empty($vez_eng_id) || empty($jelszo) || empty($telszam) || empty($email) || empty($ker_nev) || empty($vez_nev)) {
+            return response()->json(['valasz' => 'Hiányos adatok!'], 404, [], JSON_UNESCAPED_UNICODE); 
+        }
+
+        
+    }
 }
