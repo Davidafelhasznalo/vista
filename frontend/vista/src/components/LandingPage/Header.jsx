@@ -17,8 +17,8 @@ const Header = () => {
 
     const { pathname } = useLocation()
 
-    const handleLogout = () => {
-        logout()
+    const handleLogout = async () => {
+        await logout()
         alert('Sikeres kijelentkezés')
     }
 
