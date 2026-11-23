@@ -23,6 +23,9 @@ export function AuthProvider({ children }) {
                     "password": password
                 })
             });
+
+            const valasz = await httpKapcsolat.json();
+
             if (httpKapcsolat.ok) {
                 localStorage.setItem('token', valasz.token);
                 localStorage.setItem('user', JSON.stringify(valasz.user));
@@ -39,6 +42,7 @@ export function AuthProvider({ children }) {
                 return { ok: false, message: valasz.message }; // a message a backendről jön !!! (pl. "Hibás email vagy jelszó)"
             }
         } catch (error) {
+            console.log(error);
             return { ok: false, message: 'Nem sikerült kapcsolódni a szerverhez.' };
         }
     };
