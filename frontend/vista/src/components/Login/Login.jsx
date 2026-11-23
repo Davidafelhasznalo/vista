@@ -25,12 +25,14 @@ const Login = () => {
     const [hiba, setHiba] = useState('');
     const [mutat, setMutat] = useState(false);
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        const sikeres = login(username.current.value, password.current.value);
+        setHiba(''); // az elozo hiba torlese!!
 
-        if (!sikeres) {
-            setHiba('Hibás felhasználónév vagy jelszó');
+        const eredmeny = await login(username.current.value, password.current.value);
+
+        if (!eredmeny.ok) {
+            setHiba(eredmeny.message);
         }
     }
 
@@ -48,7 +50,7 @@ const Login = () => {
 
                     <div className="mb-3">
                         <label htmlFor="username" className="form-label small">Felhasználónév</label>
-                        <input id="username" type="text" className="form-control" ref={username} />
+                        <input id="username" type="email" className="form-control" ref={username} />
                     </div>
 
                     <div className="mb-4">
