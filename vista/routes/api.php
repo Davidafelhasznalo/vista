@@ -4,6 +4,7 @@ use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 Route::post('/login', [AuthController::class, 'login']);
+Route::post('/registration', [AuthController::class, 'registration']);
 
 // vegett utvonalak, csak bejelenkezes utan valnak elerhetove
 Route::middleware('auth:sanctum')->group(function () {  

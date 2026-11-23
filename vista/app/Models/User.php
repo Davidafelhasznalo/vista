@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use Illuminate\Support\Facades\DB;
 
 class User extends Authenticatable {
     use HasFactory, Notifiable, HasApiTokens;
@@ -51,5 +52,18 @@ class User extends Authenticatable {
     // Igaz, ha a bejelentkezett dolgozó admin
     public function isAdmin(): bool {
         return (int) $this->jog_id === self::ADMIN_JOG_ID;
+    }
+
+    // REGISZTRACIO - meg ki kell szervezni kulon fajlba (most csak proba van)
+    public static function regisztracio(int $jogkorId, int $vez_eng_id, string $jelszo, string $telszam, string $email, string $ker_nev, string $vez_nev) {
+        return DB::table('dolgozo')->insert([
+            'jog_id' => $jogkorId,
+            'vez_eng_id' => $vez_eng_id,
+            'jelszo' => $jelszo,
+            'telszam' => $telszam,
+            'email' => $email,
+            'ker_nev' => $ker_nev,
+            'vez_nev' => $vez_nev
+        ]);
     }
 }
