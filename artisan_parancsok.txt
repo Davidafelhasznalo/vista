@@ -4,3 +4,4 @@ cp .env.example .env                    <-- .env fájl létrehozása
 php artisan migrate                     <-- migrációk futattása
 php artisan make:seeder JarmuSeeder     <-- seeder létrehozása
 php artisan install:api                 <-- api fájl létrehozása (végpontok hozzárendelése URI-hoz)
+php artisan db:seed                     <-- seederek lefutattása (az adatbázis feltöltése tesztadatokkal)
