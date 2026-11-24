@@ -66,4 +66,9 @@ class User extends Authenticatable {
             'vez_nev' => $vez_nev
         ]);
     }
+
+    // SZEREPKOROK - meg ki kell szervezni kulon fajlba (most csak proba van)
+    public static function szerepkorok() {
+        return DB::table('jog')->select('*')->get();
+    }
 }
