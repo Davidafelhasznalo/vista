@@ -61,6 +61,7 @@ class AuthController extends Controller {
             return response()->json(['valasz' => 'Hiányos adatok!'], 404, [], JSON_UNESCAPED_UNICODE); 
         }
 
-        
+        User::regisztracio($jog_id, $vez_eng_id, $jelszo, $telszam, $email, $ker_nev, $vez_nev);
+        return response()->json(['valasz' => 'Dolgozó hozzáadva a nyilvántartáshoz!'], 200, [], JSON_UNESCAPED_UNICODE); 
     }
 }
