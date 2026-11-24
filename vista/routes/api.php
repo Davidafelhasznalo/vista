@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('/login', [AuthController::class, 'login']);
 Route::post('/registration', [AuthController::class, 'registration']);
+Route::get('/roles', [AuthController::class, 'allroles']);
 
 // vegett utvonalak, csak bejelenkezes utan valnak elerhetove
 Route::middleware('auth:sanctum')->group(function () {  

@@ -1,10 +1,11 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import SendRegistration from "./SendRegistration";
+import GetRoles from "./GetRoles";
 
-const Asd = () => {
+const Registration = () => {
     const [jogkorId, setJogkorId] = useState(1);
+    const [szerepkorok, setSzerepkorok] = useState([]);
     const vez_eng_id_Input = useRef();
-    const jelszo_Input = useRef();
     const telszam_Input = useRef();
     const email_Input = useRef();
     const ker_nev_Input = useRef();
@@ -13,20 +14,18 @@ const Asd = () => {
     const regisztracio = () => {
         try {
             const vez_eng_id = vez_eng_id_Input.current.value;
-            const jelszo = jelszo_Input.current.value;
             const telszam = telszam_Input.current.value;
             const email = email_Input.current.value;
             const ker_nev = ker_nev_Input.current.value;
             const vez_nev = vez_nev_Input.current.value;
 
-            if (jogkorId == "" || vez_eng_id == "" || jelszo == "" || telszam == "" || email == "" || ker_nev == "" || vez_nev == "") {
+            if (jogkorId == "" || vez_eng_id == "" || telszam == "" || email == "" || ker_nev == "" || vez_nev == "") {
                 alert("Hiányos adaok!");
             }
             else {
                 SendRegistration({
                     'jog_id': jogkorId,
                     'vez_eng_id': vez_eng_id,
-                    'jelszo': jelszo,
                     'telszam': telszam,
                     'email': email,
                     'ker_nev': ker_nev,
@@ -37,17 +36,26 @@ const Asd = () => {
         catch (error) {
             console.log("Hiba törént a regisztráció során!")
         }
-    } 
+    }
+
+    const szerepkorokListazasa = (szerepkorok) => {
+        return(szerepkorok.map((szerepkor) => <option key={szerepkor.jog_id} value={szerepkor.jog_id}>{szerepkor.jogkor_megnevezes}</option>));
+    }
+
+    useEffect(() => {
+        const betoltes = async () => {
+            const szerepkorok = await GetRoles();
+            setSzerepkorok(szerepkorok);
+        } 
+        betoltes();
+    }, []);
 
     return(
         <form onSubmit={(e) => e.preventDefault()}>
             <select onChange={(e) => setJogkorId(e.currentTarget.value)}>
-                <option value="1">Sofőr</option>
-                <option value="2">Admin</option>
-                <option value="3">Meneger</option>
+            {szerepkorokListazasa(szerepkorok)}
             </select><br/>
             <input type="text" placeholder="vez_eng_id" ref={vez_eng_id_Input}/><br/>
-            <input type="text" placeholder="jelszo" ref={jelszo_Input}/><br/>
             <input type="text" placeholder="telszam" ref={telszam_Input}/><br/>
             <input type="text" placeholder="email" ref={email_Input}/><br/>
             <input type="text" placeholder="ker_nev" ref={ker_nev_Input}/><br/>
@@ -58,4 +66,4 @@ const Asd = () => {
     );
 }
 
-export default Asd;
+export default Registration;
