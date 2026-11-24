@@ -55,11 +55,11 @@ class User extends Authenticatable {
     }
 
     // REGISZTRACIO - meg ki kell szervezni kulon fajlba (most csak proba van)
-    public static function regisztracio(int $jogkorId, int $vez_eng_id, string $jelszo, string $telszam, string $email, string $ker_nev, string $vez_nev) {
+    public static function regisztracio(int $jog_id, int $vez_eng_id, string $jelszo, string $telszam, string $email, string $ker_nev, string $vez_nev) {
         return DB::table('dolgozo')->insert([
-            'jog_id' => $jogkorId,
+            'jog_id' => $jog_id,
             'vez_eng_id' => $vez_eng_id,
-            'jelszo' => $jelszo,
+            'jelszo' => password_hash($jelszo, PASSWORD_BCRYPT),
             'telszam' => $telszam,
             'email' => $email,
             'ker_nev' => $ker_nev,
