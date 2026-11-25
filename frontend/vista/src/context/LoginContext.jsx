@@ -3,6 +3,8 @@ import { useState, createContext, useContext } from 'react';
 
 const AuthContext = createContext();
 
+const API_URL = 'http://localhost:9000/api';
+
 export function AuthProvider({ children }) {
     const [token, setToken] = useState(localStorage.getItem('token'));
     const [user, setUser] = useState(JSON.parse(localStorage.getItem('user') || 'null'));
@@ -12,7 +14,7 @@ export function AuthProvider({ children }) {
 
     const login = async (email, password) => {
         try {
-            const httpKapcsolat = await fetch('http://localhost:8000/api/login', {
+            const httpKapcsolat = await fetch(`${API_URL}/login`, {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
@@ -49,7 +51,7 @@ export function AuthProvider({ children }) {
 
     const logout = async () => {
         try {
-            const httpKapcsolat = await fetch('http://localhost:8000/api/logout', {
+            const httpKapcsolat = await fetch(`${API_URL}/logout`, {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
