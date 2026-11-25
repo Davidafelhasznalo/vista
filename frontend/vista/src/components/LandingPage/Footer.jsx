@@ -1,15 +1,15 @@
 const Footer = () => {
     return (
-        <footer className="bg-dark text-white pt-5 pb-3">
-            <div className="container-fluid px-4 px-lg-5">
-                <div className="d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-4 pb-4">
+        <footer className="bg-forest pb-4 pt-12 text-white">
+            <div className="w-full px-6 lg:px-12">
+                <div className="flex flex-col justify-between gap-6 pb-6 md:flex-row md:items-end">
                     <div>
-                        <div className="display-4 fw-bolder text-lime">VISTA</div>
-                        <p className="small text-white-50">A flottád. Egy helyen.</p>
+                        <div className="text-6xl font-extrabold text-vista-lime">VISTA</div>
+                        <p className="text-sm text-white/50">A flottád. Egy helyen.</p>
                     </div>
                 </div>
 
-                <div className="border-top border-light border-opacity-25 pt-3 d-flex flex-column flex-md-row justify-content-between gap-2 small text-white-50">
+                <div className="flex flex-col justify-between gap-2 border-t border-white/25 pt-4 text-sm text-white/50 md:flex-row">
                     <span>© 2026 VISTA: Kányai Márk, Sveiczer Dávid</span>
                 </div>
 

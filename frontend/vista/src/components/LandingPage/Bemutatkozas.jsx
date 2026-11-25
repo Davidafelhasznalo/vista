@@ -1,16 +1,16 @@
 const Bemutatkozas = () => {
     return (
-        <section className="container-fluid px-4 px-lg-5">
-            <div className="border-top py-5">
-                <div className="row g-4">
+        <section className="w-full px-6 lg:px-12">
+            <div className="border-t py-12">
+                <div className="grid gap-6 md:grid-cols-12">
 
-                    <div className="col-md-5">
+                    <div className="md:col-span-5">
                         <p className="label">01 / Bemutatkozás</p>
-                        <h2 className="fw-bold">Mi az a VISTA?</h2>
+                        <h2 className="text-3xl font-bold">Mi az a VISTA?</h2>
                     </div>
-                    <div className="col-md-7">
-                        <h3 className="h4 mb-3">A flottád. Egy helyen. Átláthatóan.</h3>
-                        <p className="text-body-secondary mb-4">
+                    <div className="md:col-span-7">
+                        <h3 className="mb-4 text-2xl font-medium">A flottád. Egy helyen. Átláthatóan.</h3>
+                        <p className="mb-6 text-muted">
                             A VISTA (Vehicle Inventory, Service, Tracking & Administration)
                             egy webalapú flottakezelő alkalmazás. Eddig a szervizelés, a tankolás
                             és a fuvarok nyomon követése papíron vagy több, különálló szoftverben

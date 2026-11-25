@@ -6,7 +6,7 @@ import Csapat from './Csapat'
 
 const Home = () => {
     return (
-        <main className="oldal-belep">
+        <main className="animate-oldal-belep motion-reduce:animate-none">
             <Hero />
             <Bemutatkozas />
             <MiertVista />

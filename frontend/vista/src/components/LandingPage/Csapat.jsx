@@ -5,27 +5,27 @@ const fejlesztok = [
 
 const Csapat = () => {
     return (
-        <section className="bg-body-tertiary py-5">
-            <div className="container-fluid px-4 px-lg-5">
-                <div className="row g-5">
+        <section className="bg-surface-alt py-12">
+            <div className="w-full px-6 lg:px-12">
+                <div className="grid gap-12 md:grid-cols-2">
 
-                    <div className="col-md-6">
+                    <div>
                         <p className="label">04 / A csapat</p>
-                        <h2 className="fw-bold">Két fejlesztő, egy cél.</h2>
-                        <p className="text-body-secondary mt-3">
+                        <h2 className="text-3xl font-bold">Két fejlesztő, egy cél.</h2>
+                        <p className="mt-4 text-muted">
                             Két fejlesztő, egy cél: egyszerűbbé tenni a járműpark kezelését.
                             Kányai Márk és Sveiczer Dávid projektje a Veszprémi Szakképzési
                             Centrum Ipari Technikumban.
                         </p>
                     </div>
 
-                    <div className="col-md-6">
+                    <div>
                         {fejlesztok.map((f) => (
-                            <div key={f.szam} className="d-flex gap-4 py-3 border-bottom">
-                                <span className="small text-body-secondary pt-1">{f.szam}</span>
+                            <div key={f.szam} className="flex gap-6 border-b py-4">
+                                <span className="pt-1 text-sm text-muted">{f.szam}</span>
                                 <div>
-                                    <strong className="fs-5">{f.nev}</strong>
-                                    <p className="small text-body-secondary">Fejlesztő</p>
+                                    <strong className="text-xl">{f.nev}</strong>
+                                    <p className="text-sm text-muted">Fejlesztő</p>
                                 </div>
                             </div>
                         ))}

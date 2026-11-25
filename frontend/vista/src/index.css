@@ -1,65 +1,72 @@
-:root,
-[data-bs-theme="light"] {
-  --bs-body-font-family: 'Work Sans', sans-serif;
+@import "tailwindcss";
 
-  --bs-body-bg: #f8f9f1;
-  --bs-body-bg-rgb: 248, 249, 241;
-  --bs-body-color: #1a3d2f;
-  --bs-body-color-rgb: 26, 61, 47;
-  --bs-secondary-color: #5b6b62;
-  --bs-secondary-bg: #ffffff;
-  --bs-secondary-bg-rgb: 255, 255, 255;
-  --bs-tertiary-bg: #eef0e0;
-  --bs-tertiary-bg-rgb: 238, 240, 224;
-  --bs-border-color: #dfe3d3;
-  --bs-dark-rgb: 26, 61, 47;
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+:root {
+  --bg: #f8f9f1;
+  --fg: #1a3d2f;
+  --muted: #5b6b62;
+  --surface: #ffffff;
+  --surface-alt: #eef0e0;
+  --line: #dfe3d3;
 
   --akcent: #1a3d2f;
   --akcent-szoveg: #ffffff;
   --logo-betu: #d4f26b;
-  --ikon-szuro: none;
 }
 
-[data-bs-theme="dark"] {
-  --bs-body-bg: #0f1914;
-  --bs-body-bg-rgb: 15, 25, 20;
-  --bs-body-color: #eef3e4;
-  --bs-body-color-rgb: 238, 243, 228;
-  --bs-secondary-color: #9fb3a8;
-  --bs-secondary-bg: #16231c;
-  --bs-secondary-bg-rgb: 22, 35, 28;
-  --bs-tertiary-bg: #17251e;
-  --bs-tertiary-bg-rgb: 23, 37, 30;
-  --bs-border-color: #2a3d33;
+[data-theme="dark"] {
+  --bg: #0f1914;
+  --fg: #eef3e4;
+  --muted: #9fb3a8;
+  --surface: #16231c;
+  --surface-alt: #17251e;
+  --line: #2a3d33;
 
   --akcent: #d4f26b;
   --akcent-szoveg: #1a3d2f;
   --logo-betu: #1a3d2f;
-  --ikon-szuro: invert(1);
 }
 
+@theme inline {
+  --font-sans: 'Work Sans', sans-serif;
 
-.label {
-  font-size: 11px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--bs-secondary-color);
-  margin-bottom: 12px;
+  --color-bg: var(--bg);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-line: var(--line);
+
+  --color-akcent: var(--akcent);
+  --color-akcent-szoveg: var(--akcent-szoveg);
+  --color-logo-betu: var(--logo-betu);
 }
 
-.text-lime {
-  color: #d4f26b !important;
-}
+@theme {
+  --color-forest: #1a3d2f;
+  --color-vista-lime: #d4f26b;
 
-.oldal-belep {
-    animation: oldal-belep 0.7s ease both;
-}
-
-@keyframes oldal-belep {
+  --animate-oldal-belep: oldal-belep 0.7s ease both;
+  @keyframes oldal-belep {
     from { opacity: 0; transform: translateY(20px); }
     to   { opacity: 1; transform: none; }
+  }
 }
 
-@media (prefers-reduced-motion: reduce) {
-    .oldal-belep { animation: none; }
+@layer base {
+  *, ::before, ::after {
+    border-color: var(--line);
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--fg);
+  }
+}
+
+@layer components {
+  .label {
+    @apply mb-3 text-[11px] uppercase tracking-[1px] text-muted;
+  }
 }

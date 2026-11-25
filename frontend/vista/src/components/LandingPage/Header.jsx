@@ -1,16 +1,17 @@
 import { useEffect, useState } from 'react'
 import { useAuth } from '../../context/LoginContext'
 import { NavLink, useLocation } from 'react-router-dom'
-import classes from './Header.module.css'
 import holdIkon from './images/moon.png'
 import napIkon from './images/sun.png'
 
+const gomb =
+    'cursor-pointer rounded-full border border-akcent bg-akcent px-4 py-1 text-sm text-akcent-szoveg hover:opacity-85'
 
 const Header = () => {
     const [sotet, setSotet] = useState(false)
 
     useEffect(() => {
-        document.documentElement.setAttribute('data-bs-theme', sotet ? 'dark' : 'light')
+        document.documentElement.setAttribute('data-theme', sotet ? 'dark' : 'light')
     }, [sotet])
 
     const { isLogged, logout } = useAuth()
@@ -23,33 +24,33 @@ const Header = () => {
     }
 
     return (
-        <header className="border-bottom py-3">
-            <div className="container-fluid px-4 px-lg-5 d-flex justify-content-between align-items-center">
-                <div className={`rounded-circle d-flex align-items-center justify-content-center fw-bold ${classes.logo}`}>
+        <header className="border-b py-4">
+            <div className="flex w-full items-center justify-between px-6 lg:px-12">
+                <div className="flex size-9 items-center justify-center rounded-full bg-akcent font-bold text-logo-betu">
                     V
                 </div>
 
-                <span className="fw-bold">VISTA</span>
+                <span className="font-bold">VISTA</span>
 
-                <div className="d-flex align-items-center gap-2">
+                <div className="flex items-center gap-2">
                     <button
-                        className={`rounded-circle border d-flex align-items-center justify-content-center p-0 ${classes.tema}`}
+                        className="flex size-9 cursor-pointer items-center justify-center rounded-full border bg-transparent p-0"
                         onClick={() => setSotet(!sotet)}
                         aria-label="Téma váltása"
                     >
-                        <img src={sotet ? napIkon : holdIkon} alt="" />
+                        <img src={sotet ? napIkon : holdIkon} alt="" className="size-[18px] dark:invert" />
                     </button>
 
                     {isLogged ? (
-                        <button onClick={handleLogout} className={`btn btn-sm rounded-pill px-3 ${classes.gomb}`}>
+                        <button onClick={handleLogout} className={gomb}>
                             Kijelentkezés
                         </button>
                     ) : pathname === '/login' ? (
-                        <NavLink to="/" className={`btn btn-sm rounded-pill px-3 ${classes.gomb}`}>
+                        <NavLink to="/" className={gomb}>
                             Vissza
                         </NavLink>
                     ) : (
-                        <NavLink to="/login" className={`btn btn-sm rounded-pill px-3 ${classes.gomb}`}>
+                        <NavLink to="/login" className={gomb}>
                             Bejelentkezés
                         </NavLink>
                     )}
