@@ -18,20 +18,18 @@ const kartyak = [
 
 const MiertVista = () => {
     return (
-        <section className="bg-dark text-white py-5">
-            <div className="container-fluid px-4 px-lg-5">
-                <p className="label text-lime">02 / Miért VISTA?</p>
-                <h2 className="fw-bold mb-4">A kezedben az irányítás.</h2>
-                <div className="row g-3">
+        <section className="bg-forest py-12 text-white">
+            <div className="w-full px-6 lg:px-12">
+                <p className="label text-vista-lime">02 / Miért VISTA?</p>
+                <h2 className="mb-6 text-3xl font-bold">A kezedben az irányítás.</h2>
+                <div className="grid gap-4 md:grid-cols-3">
                     {kartyak.map((k) => (
-                        <div key={k.szam} className="col-md-4">
-                            <div className="bg-white bg-opacity-10 rounded-3 p-4 h-100">
-                                <div className="d-flex justify-content-between">
-                                    <span className="small text-white-50">{k.szam}</span>
-                                </div>
-                                <h3 className="fs-6 fw-semibold mt-5 mb-2">{k.cim}</h3>
-                                <p className="small text-white-50">{k.szoveg}</p>
+                        <div key={k.szam} className="rounded-lg bg-white/10 p-6">
+                            <div className="flex justify-between">
+                                <span className="text-sm text-white/50">{k.szam}</span>
                             </div>
+                            <h3 className="mb-2 mt-12 text-base font-semibold">{k.cim}</h3>
+                            <p className="text-sm text-white/50">{k.szoveg}</p>
                         </div>
                     ))}
                 </div>

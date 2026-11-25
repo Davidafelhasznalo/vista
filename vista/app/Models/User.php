@@ -17,7 +17,7 @@ class User extends Authenticatable {
     public $timestamps = false;
 
     // Az admin jog azonosítója a jog táblában (ellenőrizd az adatbázisban!)
-    const ADMIN_JOG_ID = 2;
+    const ADMIN_JOG_ID = 3;
 
     protected $fillable = [
         'jog_id',

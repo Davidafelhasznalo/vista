@@ -1,15 +1,13 @@
-import classes from './Hero.module.css';
-
 const Hero = () => {
     return (
-        <section className="container-fluid px-4 px-lg-5 py-5">
-            <div className="row align-items-center g-5">
-                <div className="col-md-6">
-                    <h1 className="display-5 fw-bold lh-1 mb-3">
+        <section className="w-full px-6 py-12 lg:px-12">
+            <div className="grid items-center gap-12 md:grid-cols-2">
+                <div>
+                    <h1 className="mb-4 text-4xl font-bold leading-none md:text-5xl">
                         A flottád.<br />Egy helyen.<br />Átláthatóan.
                     </h1>
 
-                    <p className="text-body-secondary mb-4">
+                    <p className="mb-6 text-muted">
                         A VISTA kis- és középvállalkozásoknak segít átláthatóvá tenni a
                         járműparkot: szerviz, tankolás, foglalás és hibabejelentés egyetlen
                         webes felületen.
@@ -18,9 +16,9 @@ const Hero = () => {
                     <p className="label">Flottakezelés, egy kicsit szabadabban.</p>
                 </div>
 
-                <div className="col-md-6">
-                    <div className={`position-relative overflow-hidden rounded-4 ${classes.kep}`}>
-                        <img src="/images/LandingPage/auto.jpeg" alt="" className="w-100 h-100 object-fit-cover"/>
+                <div>
+                    <div className="relative h-[300px] overflow-hidden rounded-2xl md:h-[440px]">
+                        <img src="/images/LandingPage/auto.jpeg" alt="" className="size-full object-cover"/>
                     </div>
                 </div>
             </div>

@@ -1,9 +1,0 @@
-.kep {
-    height: 440px;
-}
-
-@media (max-width: 767px) {
-    .kep {
-        height: 300px;
-    }
-}

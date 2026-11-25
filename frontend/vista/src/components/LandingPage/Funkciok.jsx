@@ -1,4 +1,3 @@
-// A hat kártya adata
 const funkciok = [
     { cim: 'Járművek', szoveg: 'A járműpark minden fontos adata egy átlátható, közös nyilvántartásban.' },
     { cim: 'Szerviz és karbantartás', szoveg: 'Kövesd a szervizeléseket és a karbantartásokat, hogy semmi ne maradjon el.' },
@@ -10,18 +9,16 @@ const funkciok = [
 
 const Funkciok = () => {
     return (
-        <section className="container-fluid px-4 px-lg-5 py-5">
+        <section className="w-full px-6 py-12 lg:px-12">
             <p className="label">03 / Funkciók</p>
-            <h2 className="fw-bold">Minden, ami mozgásban tart.</h2>
-            <p className="small text-body-secondary mt-2 mb-4">A mindennapi feladatoktól a nagyobb döntésekig.</p>
+            <h2 className="text-3xl font-bold">Minden, ami mozgásban tart.</h2>
+            <p className="mb-6 mt-2 text-sm text-muted">A mindennapi feladatoktól a nagyobb döntésekig.</p>
 
-            <div className="row g-3">
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {funkciok.map((f) => (
-                    <div key={f.cim} className="col-sm-6 col-lg-4">
-                        <div className="bg-body-secondary border rounded-3 p-3 h-100">
-                            <h3 className="fs-6 fw-semibold mb-2">{f.cim}</h3>
-                            <p className="small text-body-secondary">{f.szoveg}</p>
-                        </div>
+                    <div key={f.cim} className="rounded-lg border bg-surface p-4">
+                        <h3 className="mb-2 text-base font-semibold">{f.cim}</h3>
+                        <p className="text-sm text-muted">{f.szoveg}</p>
                     </div>
                 ))}
             </div>

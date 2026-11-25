@@ -18,6 +18,9 @@ const SzemCsukott = () => (
     </svg>
 )
 
+const beviteli =
+    'block w-full rounded-md border bg-bg px-3 py-1.5 text-fg focus:border-akcent focus:outline-none focus:ring-2 focus:ring-akcent/25'
+
 const Login = () => {
     const username = useRef();
     const password = useRef();
@@ -25,12 +28,14 @@ const Login = () => {
     const [hiba, setHiba] = useState('');
     const [mutat, setMutat] = useState(false);
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        const sikeres = login(username.current.value, password.current.value);
+        setHiba(''); // az elozo hiba torlese!!
 
-        if (!sikeres) {
-            setHiba('Hibás felhasználónév vagy jelszó');
+        const eredmeny = await login(username.current.value, password.current.value);
+
+        if (!eredmeny.ok) {
+            setHiba(eredmeny.message);
         }
     }
 
@@ -39,39 +44,46 @@ const Login = () => {
     }
 
     return (
-         <div className="container flex-grow-1 d-flex align-items-center justify-content-center py-5 oldal-belep">
-            <div className="w-100" style={{ maxWidth: '400px' }}>
-                <form onSubmit={handleSubmit} className="bg-body-secondary border rounded-4 p-4">
-                    <h2 className="fw-bold text-center mb-4">Üdvözöljük!</h2>
+         <div className="container mx-auto flex flex-1 animate-oldal-belep items-center justify-center px-3 py-12 motion-reduce:animate-none">
+            <div className="w-full max-w-[400px]">
+                <form onSubmit={handleSubmit} className="rounded-2xl border bg-surface p-6">
+                    <h2 className="mb-6 text-center text-3xl font-bold">Üdvözöljük!</h2>
 
-                    {hiba && <div className="alert alert-danger py-2 small">{hiba}</div>}
-
-                    <div className="mb-3">
-                        <label htmlFor="username" className="form-label small">Felhasználónév</label>
-                        <input id="username" type="text" className="form-control" ref={username} />
-                    </div>
+                    {hiba && (
+                        <div className="mb-4 rounded-md border border-red-300 bg-red-100 px-4 py-2 text-sm text-red-900 dark:border-red-800 dark:bg-red-950 dark:text-red-300">
+                            {hiba}
+                        </div>
+                    )}
 
                     <div className="mb-4">
-                        <label htmlFor="password" className="form-label small">Jelszó</label>
-                        <div className="input-group">
-                        <input
-                            id="password"
-                            type={mutat ? 'text' : 'password'}
-                            className="form-control"
-                            ref={password}
-                        />
-                        <button
-                            type="button"
-                            className="btn btn-outline-secondary d-flex align-items-center"
-                            onClick={() => setMutat(!mutat)}
-                            aria-label={mutat ? 'Jelszó elrejtése' : 'Jelszó megjelenítése'}
-                        >
-                            {mutat ? <SzemNyitott /> : <SzemCsukott />}
-                        </button>
-                    </div>
+                        <label htmlFor="username" className="mb-2 block text-sm">Felhasználónév</label>
+                        <input id="username" type="email" className={beviteli} ref={username} />
                     </div>
 
-                    <button type="submit" className="btn btn-secondary w-100 rounded-pill">
+                    <div className="mb-6">
+                        <label htmlFor="password" className="mb-2 block text-sm">Jelszó</label>
+                        <div className="flex">
+                            <input
+                                id="password"
+                                type={mutat ? 'text' : 'password'}
+                                className={`${beviteli} min-w-0 flex-1 rounded-r-none`}
+                                ref={password}
+                            />
+                            <button
+                                type="button"
+                                className="-ml-px flex cursor-pointer items-center rounded-r-md border border-muted px-3 py-1.5 text-muted hover:bg-muted hover:text-surface"
+                                onClick={() => setMutat(!mutat)}
+                                aria-label={mutat ? 'Jelszó elrejtése' : 'Jelszó megjelenítése'}
+                            >
+                                {mutat ? <SzemNyitott /> : <SzemCsukott />}
+                            </button>
+                        </div>
+                    </div>
+
+                    <button
+                        type="submit"
+                        className="w-full cursor-pointer rounded-full bg-akcent px-3 py-1.5 text-akcent-szoveg hover:opacity-85"
+                    >
                         Bejelentkezés
                     </button>
                 </form>

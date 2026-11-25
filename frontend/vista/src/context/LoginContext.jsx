@@ -1,22 +1,84 @@
 import { useState, createContext, useContext } from 'react';
 
+
 const AuthContext = createContext();
 
-export function AuthProvider({children}) {
-    const [isLogged, setIsLogged] = useState(false);
+const API_URL = 'http://localhost:9000/api';
 
-    const login = (username, password) => {
-        if (username === 'admin' && password === '123456') {
-            setIsLogged(true);
-            return true;
+export function AuthProvider({ children }) {
+    const [token, setToken] = useState(localStorage.getItem('token'));
+    const [user, setUser] = useState(JSON.parse(localStorage.getItem('user') || 'null'));
+    const [isAdmin, setIsAdmin] = useState(localStorage.getItem('isAdmin') === 'true');
+
+    const isLogged = token !== null;
+
+    const login = async (email, password) => {
+        try {
+            const httpKapcsolat = await fetch(`${API_URL}/login`, {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    "email": email,
+                    "password": password
+                })
+            });
+
+            const valasz = await httpKapcsolat.json();
+
+            if (httpKapcsolat.ok) {
+                localStorage.setItem('token', valasz.token);
+                localStorage.setItem('user', JSON.stringify(valasz.user));
+                localStorage.setItem('isAdmin', valasz.is_admin);
+
+                setToken(valasz.token);
+                setUser(valasz.user);
+                setIsAdmin(valasz.is_admin);
+
+                console.log("Sikeres bejelentkezés!");
+                return { ok: true };
+            }
+            else {
+                return { ok: false, message: valasz.message }; // a message a backendről jön !!! (pl. "Hibás email vagy jelszó)"
+            }
+        } catch (error) {
+            console.log(error);
+            return { ok: false, message: 'Nem sikerült kapcsolódni a szerverhez.' };
         }
-        return false;
     };
 
-    const logout = () => setIsLogged(false);
+    const logout = async () => {
+        try {
+            const httpKapcsolat = await fetch(`${API_URL}/logout`, {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Authorization': `Bearer ${token}`,
+                }
+            });
+            if (httpKapcsolat.ok) {
+                console.log("Sikeres kijelentkezés!");
+            }
+        }
+        catch (error) {
+            console.log(error);
+        }
+        finally {
+            localStorage.removeItem('token');
+            localStorage.removeItem('user');
+            localStorage.removeItem('isAdmin');
 
-    return(
-        <AuthContext.Provider value={{ isLogged, login, logout }}>
+            setToken(null);
+            setUser(null);
+            setIsAdmin(false);
+        }
+    }
+
+
+    return (
+        <AuthContext.Provider value={{ isLogged, isAdmin, user, token, login, logout }}>
             {children}
         </AuthContext.Provider>
     )
