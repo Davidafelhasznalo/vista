@@ -5,7 +5,7 @@ import Footer from './components/LandingPage/Footer.jsx';
 import Home from './components/LandingPage/Home.jsx';
 import Login from './components/Login/Login.jsx';
 import Registration from './components/Registration/Registration.jsx';
-import Dolgozok from './components/Employees/Dolgozok.jsx';
+import Jarmuvek from './components/Vehicles/Jarmuvek.jsx';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path='login' element={<Login />} />
               <Route path='registration' element={<Registration />} />
-              <Route path='dolgozok' element={<Dolgozok />} />
+              <Route path='jarmuvek' element={<Jarmuvek />} />
             </Routes>
           </div>
           <Footer />
