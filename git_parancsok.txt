@@ -5,4 +5,4 @@ git commit -m "[valtoztatasok_rovid_leirasa]"   <-- a felküldendő csomag "cím
 git push                                        <-- változtatások felküldése a felhőbe
 
 git switch -c [branch_nev]                      <-- lokális branch létrehozása
-git push -u origin [branch_nev]                 <-- lokális branch push-olása
+git push -u origin [branch_nev]                 <-- lokális branch push-olása                  
