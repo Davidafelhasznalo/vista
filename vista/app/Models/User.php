@@ -71,4 +71,9 @@ class User extends Authenticatable {
     public static function szerepkorok() {
         return DB::table('jog')->select('*')->get();
     }
+
+    public static function jarmuvek() {
+        return DB::table('jarmu')->select('*')->get();
+    }
 }
+    

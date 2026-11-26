@@ -83,4 +83,10 @@ class AuthController extends Controller {
         $szerepkorok = User::szerepkorok();
         return response()->json($szerepkorok, 200, [], JSON_UNESCAPED_UNICODE);
     }
+
+    // JARMUVEK - meg ki kell szervezni kulon fajlba (most csak proba van)
+    public function vehicles() {
+        $jarmuvek = User::jarmuvek();
+        return response()->json($jarmuvek, 200, [], JSON_UNESCAPED_UNICODE);
+    }
 }
