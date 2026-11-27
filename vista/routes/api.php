@@ -7,6 +7,8 @@ Route::post('/login', [AuthController::class, 'login']);
 Route::post('/registration', [AuthController::class, 'registration']);
 Route::get('/roles', [AuthController::class, 'allroles']);
 Route::get('/vehicles', [AuthController::class, 'vehicles']);
+Route::get('/trips', [AuthController::class, 'trips']);
+Route::get('/services', [AuthController::class, 'services']);
 
 // vegett utvonalak, csak bejelenkezes utan valnak elerhetove
 Route::middleware('auth:sanctum')->group(function () {  

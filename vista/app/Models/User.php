@@ -72,8 +72,18 @@ class User extends Authenticatable {
         return DB::table('jog')->select('*')->get();
     }
 
+    // JARMUVEK - meg ki kell szervezni kulon fajlba (most csak proba van)
     public static function jarmuvek() {
         return DB::table('jarmu')->select('*')->get();
     }
+
+    // FUVAROK - meg ki kell szervezni kulon fajlba (most csak proba van)
+    public static function fuvarok() {
+        return DB::table('fuvar')->select('*')->get();
+    }
+
+    // SZERVEIZEK - meg ki kell szervezni kulon fajlba (most csak proba van)
+    public static function szervizek() {
+        return DB::table('szerviz')->select('*')->get();
+    }
 }
-    
