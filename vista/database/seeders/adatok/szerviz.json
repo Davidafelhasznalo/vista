@@ -76,7 +76,7 @@
 		"jarmu_id": 3,
 		"szerviz_nev": "Scania Hungária Szerviz",
 		"jav_kezd_datum": "2026-05-07",
-		"jav_bef_datum": "2026-05-08",
+		"jav_bef_datum": "2027-02-08",
 		"javitott": "Légszárító patron és szelepek cseréje",
 		"javitas_ar": 210000
 	},
@@ -121,7 +121,7 @@
 		"jarmu_id": 2,
 		"szerviz_nev": "Dunaújvárosi Tehergépjármű Szerviz",
 		"jav_kezd_datum": "2026-07-20",
-		"jav_bef_datum": "2026-07-23",
+		"jav_bef_datum": "2027-01-23",
 		"javitott": "Váltócsapágyak és tömítések cseréje",
 		"javitas_ar": 365000
 	},

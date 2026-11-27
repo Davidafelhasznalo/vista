@@ -101,4 +101,10 @@ class AuthController extends Controller {
         $szervizek = User::szervizek();
         return response()->json($szervizek, 200, [], JSON_UNESCAPED_UNICODE);
     }
+
+    // DOLGOZOK - meg ki kell szervezni kulon fajlba (most csak proba van)
+    public function users() {
+        $dolgozok = User::dolgozok();
+        return response()->json($dolgozok, 200, [], JSON_UNESCAPED_UNICODE);
+    }
 }

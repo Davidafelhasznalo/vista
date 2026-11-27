@@ -8,12 +8,12 @@ i;i;s;s;s;s;i
 6;3;Truck Service Hungary Kft.;2026-03-16;2026-03-20;Befecskendező rendszer javítása;475000
 7;1;Veszprémi Kamion Szerviz Kft.;2026-04-02;2026-04-04;Kuplungszerkezet és kinyomócsapágy cseréje;390000
 8;2;Mercedes-Benz Szerviz Centrum;2026-04-15;2026-04-16;Generátor és akkumulátor ellenőrzése és javítása;125000
-9;3;Scania Hungária Szerviz;2026-05-07;2026-05-08;Légszárító patron és szelepek cseréje;210000
+9;3;Scania Hungária Szerviz;2026-05-07;2027-02-08;Légszárító patron és szelepek cseréje;210000
 10;1;Veszprémi Kamion Szerviz Kft.;2026-05-19;2026-05-20;Teljes körű műszaki állapotfelmérés és kisebb hibák javítása;95000
 11;2;Truck Service Hungary Kft.;2026-06-03;2026-06-04;Motorolaj és levegőszűrő cseréje;110000
 12;3;Scania Hungária Szerviz;2026-06-17;2026-06-21;Féknyergek felújítása és fékbetétek cseréje;520000
 13;1;Mercedes-Benz Szerviz Centrum;2026-07-06;2026-07-06;Akkumulátor cseréje és töltőrendszer ellenőrzése;145000
-14;2;Dunaújvárosi Tehergépjármű Szerviz;2026-07-20;2026-07-23;Váltócsapágyak és tömítések cseréje;365000
+14;2;Dunaújvárosi Tehergépjármű Szerviz;2026-07-20;2027-01-23;Váltócsapágyak és tömítések cseréje;365000
 15;3;Scania Hungária Szerviz;2026-08-05;2026-08-06;Futómű geometria ellenőrzése és beállítása;85000
 16;1;Veszprémi Kamion Szerviz Kft.;2026-08-18;2026-08-19;Hűtőfolyadék csere és hűtő tisztítása;95000
 17;2;Truck Service Hungary Kft.;2026-09-02;2026-09-05;Kuplungtárcsa és kinyomócsapágy cseréje;285000

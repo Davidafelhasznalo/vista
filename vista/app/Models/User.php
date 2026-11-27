@@ -86,4 +86,9 @@ class User extends Authenticatable {
     public static function szervizek() {
         return DB::table('szerviz')->select('*')->get();
     }
+
+    // DOLGOZOK - meg ki kell szervezni kulon fajlba (most csak proba van)
+    public static function dolgozok() {
+        return DB::table('dolgozo')->select('*')->get();
+    }
 }
